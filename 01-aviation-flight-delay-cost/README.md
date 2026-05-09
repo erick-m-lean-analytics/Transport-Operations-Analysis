@@ -210,17 +210,63 @@ A PostgreSQL relational cost database underpins all analysis.
 
 ---
 
-## Key Assumptions
+## Methodology and Key Assumptions
+
+### Currency Conversion
+Cost rates from EUROCONTROL Table 12.1 are published in USD 2022 prices.
+Converted to AUD using RBA annual average exchange rates and 4% CPI
+escalation per year from the 2022 base (ABS Cat 6401.0).
+
+| Year | CPI Factor | RBA AUD/USD | USD 2022 → AUD |
+|---|---|---|---|
+| 2023 | 1.040 | 0.664 | 1.566 |
+| 2024 | 1.082 | 0.653 | 1.657 |
+| 2025 | 1.125 | 0.632 | 1.780 |
+
+*Sources: RBA Statistical Table F11 — Annual Average AUD/USD;
+ABS Consumer Price Index Cat 6401.0*
+
+### Key Assumptions
 
 | Assumption | Value | Basis |
 |---|---|---|
 | Load factor | 81% | BITRE domestic average 2023-2025 |
-| Base delay duration | 30 minutes | Truncated log-normal distribution |
-| Cancellation wait time | 2/4/8 hrs (low/base/high) | ACCC load factor data + US DOT 3-hr standard |
+| Base delay duration | 30 minutes | Truncated log-normal distribution — BITRE 15-min threshold |
+| Cancellation wait time | 2/4/8 hrs (low/base/high) | ACCC load factor data + US DOT 3-hr industry standard |
 | Connection rate | 8% | BITRE: 17.7% prevalence x 45% miss probability |
 | Spillover effects | Excluded | Deliberate boundary — direct aviation costs only |
 | DD8 fuel increase | 10% | Boeing 737 performance data |
 | USD to AUD conversion | Year-specific | RBA annual average + 4% CPI from 2022 base |
+
+### Sensitivity Analysis
+All three scenarios (low/base/high) tested across delay duration,
+cancellation wait time, and cost rates. Full sensitivity results
+in Cell 20c of the notebook.
+
+| Year | Low Scenario | Base Scenario | High Scenario |
+|---|---|---|---|
+| 2023 | AUD $1.89B | AUD $3.68B | AUD $7.21B |
+| 2024 | AUD $1.45B | AUD $2.72B | AUD $5.36B |
+| 2025 | AUD $1.40B | AUD $2.57B | AUD $5.09B |
+
+### Delay Duration Basis
+BITRE classifies a flight as delayed when it arrives at the gate
+15+ minutes after scheduled time. Minimum possible delay in our
+dataset is therefore 16 minutes. Using a truncated log-normal
+distribution calibrated to Australian domestic OTP data, the
+expected delay duration among classified-delayed flights is
+approximately 28-32 minutes. US cross-validation (BTS data:
+55 min average x 0.65 sector length scaling) gives 36 minutes.
+Base case of 30 minutes is conservative and consistent with
+both methods.
+
+### Cancellation Wait Time Basis
+Base case of 4 hours derived from three sources:
+ACCC December 2025 report confirms high load factors extend
+rebooking wait times; US DOT industry standard triggers
+passenger care at 3+ hours; BITRE load factor of 81.5% in 2024
+means approximately 4-5 subsequent departures needed to absorb
+all displaced passengers on trunk routes.
 
 ---
 
