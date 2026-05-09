@@ -25,13 +25,19 @@ Most aviation disruption studies ask: *how often do flights fail?*
 This study asks: *where in the value stream does the waste occur, who bears
 the cost, and what is the most cost-effective intervention to eliminate it?*
 
-| Lean Principle | Aviation Application |
-|---|---|
-| **Define Value** | A passenger arrives at their destination on time, as scheduled |
-| **Map the Value Stream** | Every step from rotation planning to gate arrival |
-| **Create Flow** | Flights should flow without interruption — delays are flow stoppages |
-| **Establish Pull** | Schedule only what the network can reliably deliver |
-| **Pursue Perfection** | The industry's own benchmark: 80.6% OTP |
+This study applies the Lean Thinking principles as practised within
+the Toyota Production System (TPS) — the original source of Lean
+methodology.
+
+| TPS Principle | Aviation Application | Our Measurement |
+|---|---|---|
+| **1. Define Value** | A passenger arrives at their destination on time as scheduled — that is the only value the airline sells | On-Time Arrivals % |
+| **2. Map the Value Stream** | Every step from rotation planning through boarding to gate arrival — identify which steps add value and which do not | Route and airline level OTP data |
+| **3. Create Flow** | Flights should flow through the network without interruption — delays and cancellations are flow stoppages | Departure and arrival delay counts |
+| **4. Establish Pull** | Schedule only what the network can reliably deliver — overcommitting creates conditions for waste | Cancellation rate vs benchmark |
+| **5. Built-In Quality (Jidoka)** | Stop and fix defects at source rather than recovering downstream — do not mask ground failures by flying faster | DD8 recovery fuel premium |
+
+*Source: Toyota Production System — Taiichi Ohno (1978);*
 
 ---
 
