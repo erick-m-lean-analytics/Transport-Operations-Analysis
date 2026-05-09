@@ -1,0 +1,4 @@
+year,avg_weekly_earnings_aud,avg_hourly_rate_aud,source,notes
+2023,1880.0,47.0,ABS Cat 6302.0 Nov2023 average,Derived from ABS AWE all industries total
+2024,1949.6,48.74,ABS Cat 6302.0 May2024/Nov2024 average,Average of May 2024 ($1923.40) and Nov 2024 ($1975.80)
+2025,2030.55,50.76,ABS Cat 6302.0 May2025/Nov2025 average,Average of May 2025 ($2010.00) and Nov 2025 ($2051.10)
