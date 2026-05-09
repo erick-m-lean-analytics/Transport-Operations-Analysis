@@ -3,7 +3,7 @@
 
 **Author:** Erick Mortera — Certified Lean Manufacturing Trainer | Industrial Engineer  
 **Tools:** Python · PostgreSQL · BITRE Public Data · EUROCONTROL Cost Framework  
-**Status:** Analysis complete — conference paper in preparation (ATRF 2026)
+**Status:** Analysis complete 
 
 ---
 
