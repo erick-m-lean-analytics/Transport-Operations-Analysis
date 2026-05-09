@@ -60,11 +60,28 @@ Cost methodology: [EUROCONTROL Standard Inputs Edition 10.0](https://ansperforma
 **Departure Delay Elements (DD1-DD8)** — uses departures_delayed count, carrier costs only  
 **Arrival Delay Elements (DA5-DA6)** — uses arrivals_delayed count, social costs only
 
-| Lean Category | Colour | Elements | Description |
-|---|---|---|---|
-| **Waiting** | Grey | C2, C3, C10, DD2, DA5 | Time consumed with zero productive output |
-| **Defect/Rework** | Red | C6-C9, C11, C12, DD7, DA6 | Recovery activities triggered by failure |
-| **Auxiliary NVA** | Yellow | C1, C4, C5, DD1, DD3, DD4, DD8 | Work consumed without value delivery |
+| Lean Category | Colour | Code | Element Name | Description |
+|---|---|---|---|---|
+| **Waiting** | Grey | C2 | Flight crew cost — pilots | Crew on duty, zero output |
+| **Waiting** | Grey | C3 | Cabin crew cost | Crew on duty, zero output |
+| **Waiting** | Grey | C10 | Passenger time — cancellation | Hours lost waiting for rebooking |
+| **Waiting** | Grey | DD2 | Crew overtime — ground phase | Duty time beyond scheduled block |
+| **Waiting** | Grey | DA5 | Passenger time — arrival delay | Minutes lost at destination |
+| **Defect/Rework** | Red | C6 | Passenger rebooking labour | Staff time to rebook all affected passengers |
+| **Defect/Rework** | Red | C7 | Rebooking fare differential | Cost of rebooking on competitor |
+| **Defect/Rework** | Red | C8 | Passenger care — meals | Meal vouchers — voluntary airline policy |
+| **Defect/Rework** | Red | C9 | Passenger care — accommodation | Hotel for overnight cancellations |
+| **Defect/Rework** | Red | C11 | Network reactionary cost | Downstream rotation disruption |
+| **Defect/Rework** | Red | C12 | Cargo rerouting | Freight rerouting administration |
+| **Defect/Rework** | Red | DD7 | Reactionary propagation | Next sector delay cascade |
+| **Defect/Rework** | Red | DA6 | Missed connections | Passengers missing connecting flights |
+| **Auxiliary NVA** | Yellow | C1 | Aircraft lease/ownership | Capital deployed, zero value delivered |
+| **Auxiliary NVA** | Yellow | C4 | Ground handling setup | Crew mobilised before cancellation |
+| **Auxiliary NVA** | Yellow | C5 | Airport gate and terminal fee | Slot committed regardless of operation |
+| **Auxiliary NVA** | Yellow | DD1 | Extra fuel burn at gate | Engines running, no progress |
+| **Auxiliary NVA** | Yellow | DD3 | Extended ground handling | Staff retained beyond turnaround |
+| **Auxiliary NVA** | Yellow | DD4 | Extended gate occupation | Infrastructure held beyond schedule |
+| **Auxiliary NVA** | Yellow | DD8 | In-flight recovery fuel | Extra fuel masking ground process failure |
 
 ### Key Innovation — DD8 Recovery Fuel Premium
 
@@ -72,6 +89,46 @@ Jetstar and Virgin Regional consistently show more departure delays than arrival
 delays — recovering ground failures by flying faster at hidden fuel cost:
 
 - **Jetstar 2024:** 3,474 recovery sectors x AUD $491/sector = **AUD $1.67 million annually**
+
+---
+
+## Cost Calculation Formula
+
+### Cancellation Cost Per Airline Per Year
+```
+Carrier cost = Cancellations × airline_cost_per_sector
+             + Cancellations × avg_passengers × pax_care_per_person
+
+Social cost  = Cancellations × avg_passengers × wait_hours × hourly_wage
+
+avg_passengers = seats × load_factor (81%)
+```
+
+### Departure Delay Cost Per Airline Per Year
+```
+Carrier cost = departures_delayed × delay_minutes × carrier_cost_per_minute
+             × cause_attribution_weight
+
+cause_attribution_weight reflects that not all delay causes
+trigger all cost elements (e.g. crew overtime only triggered
+by controllable delays — 73% of all delays)
+```
+
+### Arrival Delay Cost Per Airline Per Year
+```
+Social cost  = arrivals_delayed × delay_minutes
+             × avg_passengers × passenger_time_value_per_minute
+```
+
+### DD8 Recovery Fuel Premium
+```
+Applies only where arrivals_delayed < departures_delayed
+
+DD8 cost = recovery_sectors × fuel_burn_lph × 10%
+         × sector_hours × fuel_price_aud_per_litre
+
+recovery_sectors = |departures_delayed - arrivals_delayed|
+```
 
 ---
 
@@ -96,6 +153,21 @@ delays — recovering ground failures by flying faster at hidden fuel cost:
 
 *Qantas records the highest waste cost per flight operated —
 scale alone does not explain the cost differential.*
+
+### Uplift Calculation Method
+```
+Target defect rate = (100 - 80.6) / 100 = 19.4%
+
+Target defects     = sectors_scheduled × 19.4%
+Excess defects     = actual_defects - target_defects  (floored at zero)
+
+Blended cost       = (10% × cancel_cost_per_event)
+                   + (90% × delay_cost_per_event)
+                   = (10% × AUD $57,540) + (90% × AUD $2,200)
+                   = AUD $7,734 per excess defect event
+
+Uplift saving      = excess_defects × AUD $7,734
+```
 
 ### Uplift Potential — If All Carriers Hit 80.6% OTP Benchmark
 
