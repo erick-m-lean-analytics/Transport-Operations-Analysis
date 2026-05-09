@@ -25,13 +25,13 @@ Most aviation disruption studies ask: *how often do flights fail?*
 This study asks: *where in the value stream does the waste occur, who bears
 the cost, and what is the most cost-effective intervention to eliminate it?*
 
-| Lean Principle           | Aviation Application                                                 |
-|--------------------------|----------------------------------------------------------------------|
-| **Define Value**         | A passenger arrives at their destination on time, as scheduled       |
-| **Map the Value Stream** | Every step from rotation planning to gate arrival                    |
-| **Create Flow**          | Flights should flow without interruption — delays are flow stoppages |
-| **Establish Pull**       | Schedule only what the network can reliably deliver                  |
-| **Pursue Perfection**    | The industry's own benchmark: 80.6% OTP                              |
+| Lean Principle | Aviation Application |
+|---|---|
+| **Define Value** | A passenger arrives at their destination on time, as scheduled |
+| **Map the Value Stream** | Every step from rotation planning to gate arrival |
+| **Create Flow** | Flights should flow without interruption — delays are flow stoppages |
+| **Establish Pull** | Schedule only what the network can reliably deliver |
+| **Pursue Perfection** | The industry's own benchmark: 80.6% OTP |
 
 ---
 
@@ -39,14 +39,14 @@ the cost, and what is the most cost-effective intervention to eliminate it?*
 
 All primary data is Australian public domain:
 
-| Source                                                                                                            | What It Provides                                | Period      |
-|-------------------------------------------------------------------------------------------------------------------|-------------------------------------------------|-------------|
-| [BITRE OTP Statistics](https://www.bitre.gov.au/statistics/aviation)                                              | Cancellations, delays, OTP by airline and route | 2018-2025   |
-| [BITRE Activity Time Series](https://www.bitre.gov.au/publications/ongoing/domestic_airline_activity-time_series) | Passengers, seats, load factors                 | 2014-2026   |
+| Source | What It Provides | Period |
+|---|---|---|
+| [BITRE OTP Statistics](https://www.bitre.gov.au/statistics/aviation) | Cancellations, delays, OTP by airline and route | 2018-2025 |
+| [BITRE Activity Time Series](https://www.bitre.gov.au/publications/ongoing/domestic_airline_activity-time_series) | Passengers, seats, load factors | 2014-2026 |
 | [ABS Average Weekly Earnings](https://www.abs.gov.au/statistics/labour/earnings-and-working-conditions/average-weekly-earnings-australia/latest-release) | Passenger time value proxy | 2023-2025 |
-| [ACCC Airline Competition Reports](https://www.accc.gov.au/by-industry/aviation/domestic-airline-monitoring)      | ATC attribution, route analysis                 | 2023-2025   |
-| [Qantas Annual Reports](https://investor.qantas.com)                                                              | Financial triangulation                         | FY2023-2025 |
-| [Virgin Australia Financials](https://www.virginaustralia.com/au/en/about-us/investor-centre/)                    | Financial triangulation                         | FY2024-2025 |
+| [ACCC Airline Competition Reports](https://www.accc.gov.au/by-industry/aviation/domestic-airline-monitoring) | ATC attribution, route analysis | 2023-2025 |
+| [Qantas Annual Reports](https://investor.qantas.com) | Financial triangulation | FY2023-2025 |
+| [Virgin Australia Financials](https://www.virginaustralia.com/au/en/about-us/investor-centre/) | Financial triangulation | FY2024-2025 |
 
 Cost methodology: [EUROCONTROL Standard Inputs Edition 10.0](https://ansperformance.eu/economics/cba/standard-inputs/)
 
@@ -77,12 +77,12 @@ delays — recovering ground failures by flying faster at hidden fuel cost:
 
 ## Headline Findings
 
-| Year                | Carrier Cost    | Social Cost     | Grand Total     |
-|---------------------|-----------------|-----------------|-----------------|
-| 2023                | AUD $2.096B     | AUD $1.583B     | **AUD $3.679B** |
-| 2024                | AUD $1.521B     | AUD $1.200B     | **AUD $2.721B** |
-| 2025                | AUD $1.417B     | AUD $1.154B     | **AUD $2.571B** |
-| **3-Year Average**  | **AUD $1.678B** | **AUD $1.312B** | **AUD $2.990B** |
+| Year | Carrier Cost | Social Cost | Grand Total |
+|---|---|---|---|
+| 2023 | AUD $2.096B | AUD $1.583B | **AUD $3.679B** |
+| 2024 | AUD $1.521B | AUD $1.200B | **AUD $2.721B** |
+| 2025 | AUD $1.417B | AUD $1.154B | **AUD $2.571B** |
+| **3-Year Average** | **AUD $1.678B** | **AUD $1.312B** | **AUD $2.990B** |
 
 ### Airline Performance 2024 — Normalised by Volume
 
@@ -250,11 +250,41 @@ A PostgreSQL relational cost database underpins all analysis.
 ---
 
 ## Contact
+---
 
-**Erick Mortera**  
-Certified Lean Manufacturing Trainer | Industrial Engineer  
-GitHub: [erick-m-lean-analytics](https://github.com/erick-m-lean-analytics)
+## Licence
 
-*This study is an independent research project using publicly available
-Australian government data. It is not affiliated with or endorsed by any
-airline, government agency, or research institution.*
+This project uses a dual licence:
+
+- **Code** (Python, SQL, Jupyter notebook): [MIT Licence](LICENSE)
+- **Analysis, findings, charts, and written content**: [Creative Commons Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/)
+
+Under CC BY 4.0 you are free to share and adapt this work for any purpose,
+provided you give appropriate credit to the author.
+
+---
+
+## Citation
+
+> Mortera, E. (2025). *The Economic Cost of Australian Domestic Flight
+> Delays and Cancellations: A Lean Thinking Diagnostic of Australian
+> Domestic Aviation 2023-2025*. GitHub repository.
+> https://github.com/erick-m-lean-analytics/Transport-Operations-Analysis/tree/main/01-aviation-flight-delay-cost
+
+---
+
+## AI Assistance Disclosure
+
+Python code for data processing and visualisation was developed with
+assistance from Claude (Anthropic), an AI language model. All analytical
+decisions, cost framework design, assumptions, and interpretations are
+the author's own.
+
+The intellectual contributions that are unambiguously the author's:
+the research questions, the DD/DA cost split architecture, the DD8
+recovery fuel finding, the Lean waste mapping, the three recommendations,
+and all domain judgements.
+
+---
+
+## Contact
