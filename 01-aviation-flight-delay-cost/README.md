@@ -361,21 +361,6 @@ all displaced passengers on trunk routes.
 │       └── cost_model_results.csv
 └── charts/
 ```
-
----
-
-## Citation
-
-> Mortera, E. (2026). *The Economic Cost of Australian Domestic Flight
-> Delays and Cancellations: A Lean Thinking Diagnostic of Australian
-> Domestic Aviation 2023-2025*. GitHub repository.
-> https://github.com/erick-m-lean-analytics/Transport-Operations-Analysis
-
----
-
-## Contact
----
-
 ## Licence
 
 This project uses a dual licence:
@@ -400,7 +385,7 @@ provided you give appropriate credit to the author.
 ## AI Assistance Disclosure
 
 Python code for data processing and visualisation was developed with
-assistance from Claude (Anthropic), an AI language model. All analytical
+assistance from an AI language model. All analytical
 decisions, cost framework design, assumptions, and interpretations are
 the author's own.
 
@@ -412,3 +397,4 @@ and all domain judgements.
 ---
 
 ## Contact
+erick.s.mortera@gmail.com
