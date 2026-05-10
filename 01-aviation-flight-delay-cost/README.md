@@ -361,13 +361,6 @@ all displaced passengers on trunk routes.
 │       └── cost_model_results.csv
 └── charts/
 ```
-
----
-
-## Contact
-erick.s.mortera@gmail.com
----
-
 ## Licence
 
 This project uses a dual licence:
@@ -404,3 +397,4 @@ and all domain judgements.
 ---
 
 ## Contact
+erick.s.mortera@gmail.com
