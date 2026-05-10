@@ -3,7 +3,7 @@
 
 **Author:** Erick Mortera — Certified Lean Manufacturing Trainer | Industrial Engineer  
 **Tools:** Python · PostgreSQL · BITRE Public Data · EUROCONTROL Cost Framework  
-**Status:** Analysis complete 
+**Status:** Analysis complete — conference paper in preparation (ATRF 2026)
 
 ---
 
@@ -60,34 +60,34 @@ Cost methodology: [EUROCONTROL Standard Inputs Edition 10.0](https://ansperforma
 
 ## The Cost Model
 
-### 21 Cost Elements Across Three Lean Waste Categories
+### 21 Cost Elements Across Four Waste Categories
 
 **Cancellation Elements (C1-C12)** — triggered when a scheduled flight never operates  
 **Departure Delay Elements (DD1-DD8)** — uses departures_delayed count, carrier costs only  
 **Arrival Delay Elements (DA5-DA6)** — uses arrivals_delayed count, social costs only
 
-| Lean Category | Colour | Code | Element Name | Description |
-|---|---|---|---|---|
-| **Waiting** | Grey | C2 | Flight crew cost — pilots | Crew on duty, zero output |
-| **Waiting** | Grey | C3 | Cabin crew cost | Crew on duty, zero output |
-| **Waiting** | Grey | C10 | Passenger time — cancellation | Hours lost waiting for rebooking |
-| **Waiting** | Grey | DD2 | Crew overtime — ground phase | Duty time beyond scheduled block |
-| **Waiting** | Grey | DA5 | Passenger time — arrival delay | Minutes lost at destination |
-| **Defect/Rework** | Red | C6 | Passenger rebooking labour | Staff time to rebook all affected passengers |
-| **Defect/Rework** | Red | C7 | Rebooking fare differential | Cost of rebooking on competitor |
-| **Defect/Rework** | Red | C8 | Passenger care — meals | Meal vouchers — voluntary airline policy |
-| **Defect/Rework** | Red | C9 | Passenger care — accommodation | Hotel for overnight cancellations |
-| **Defect/Rework** | Red | C11 | Network reactionary cost | Downstream rotation disruption |
-| **Defect/Rework** | Red | C12 | Cargo rerouting | Freight rerouting administration |
-| **Defect/Rework** | Red | DD7 | Reactionary propagation | Next sector delay cascade |
-| **Defect/Rework** | Red | DA6 | Missed connections | Passengers missing connecting flights |
-| **Auxiliary NVA** | Yellow | C1 | Aircraft lease/ownership | Capital deployed, zero value delivered |
-| **Auxiliary NVA** | Yellow | C4 | Ground handling setup | Crew mobilised before cancellation |
-| **Auxiliary NVA** | Yellow | C5 | Airport gate and terminal fee | Slot committed regardless of operation |
-| **Auxiliary NVA** | Yellow | DD1 | Extra fuel burn at gate | Engines running, no progress |
-| **Auxiliary NVA** | Yellow | DD3 | Extended ground handling | Staff retained beyond turnaround |
-| **Auxiliary NVA** | Yellow | DD4 | Extended gate occupation | Infrastructure held beyond schedule |
-| **Auxiliary NVA** | Yellow | DD8 | In-flight recovery fuel | Extra fuel masking ground process failure |
+| Category | Code | Element Name | Description |
+|---|---|---|---|
+| **Waiting** | C10 | Passenger time — cancellation | Hours lost waiting for rebooking |
+| **Waiting** | DA5 | Passenger time — arrival delay | Minutes lost at destination |
+| **Rework** | C6 | Passenger rebooking labour | Staff time to rebook all affected passengers |
+| **Rework** | C7 | Rebooking fare differential | Cost of rebooking on competitor |
+| **Rework** | C8 | Passenger care — meals | Meal vouchers — voluntary airline policy |
+| **Rework** | C9 | Passenger care — accommodation | Hotel for overnight cancellations |
+| **Rework** | C12 | Cargo rerouting | Freight rerouting administration |
+| **Rework** | DA6 | Missed connections | Passengers missing connecting flights |
+| **Unconverted/Overkill Capacity** | C1 | Aircraft lease/ownership | Capital deployed, zero value delivered |
+| **Unconverted/Overkill Capacity** | C2 | Flight crew cost — pilots | Crew on duty, zero output on cancelled flight |
+| **Unconverted/Overkill Capacity** | C3 | Cabin crew cost | Crew on duty, zero output on cancelled flight |
+| **Unconverted/Overkill Capacity** | C4 | Ground handling setup | Crew mobilised before cancellation |
+| **Unconverted/Overkill Capacity** | C5 | Airport gate and terminal fee | Slot committed regardless of operation |
+| **Unconverted/Overkill Capacity** | DD1 | Extra fuel burn at gate | Engines running, no progress toward destination |
+| **Overburden/Unevenness** | DD2 | Crew overtime — ground phase | Crew pushed beyond scheduled duty limits |
+| **Overburden/Unevenness** | DD3 | Extended ground handling | Staff retained beyond turnaround due to uneven loading |
+| **Overburden/Unevenness** | DD4 | Extended gate occupation | Infrastructure held beyond schedule |
+| **Overburden/Unevenness** | DD7 | Reactionary propagation | Next sector delay cascade from uneven rotation |
+| **Overburden/Unevenness** | DD8 | In-flight recovery fuel | Aircraft pushed to abnormal speed to recover ground failure |
+| **Overburden/Unevenness** | C11 | Network reactionary cost | Downstream rotation disruption from uneven schedule |
 
 ### Key Innovation — DD8 Recovery Fuel Premium
 
@@ -361,6 +361,21 @@ all displaced passengers on trunk routes.
 │       └── cost_model_results.csv
 └── charts/
 ```
+
+---
+
+## Citation
+
+> Mortera, E. (2026). *The Economic Cost of Australian Domestic Flight
+> Delays and Cancellations: A Lean Thinking Diagnostic of Australian
+> Domestic Aviation 2023-2025*. GitHub repository.
+> https://github.com/erick-m-lean-analytics/Transport-Operations-Analysis
+
+---
+
+## Contact
+---
+
 ## Licence
 
 This project uses a dual licence:
@@ -397,4 +412,3 @@ and all domain judgements.
 ---
 
 ## Contact
-erick.s.mortera@gmail.com
