@@ -1,0 +1,10 @@
+id,year,usd_per_gallon,aud_usd_rate,aud_per_gallon,aud_per_litre,source_name,source_url,date_retrieved,notes
+1,2023,2.8,0.664,4.22,1.11,IATA Jet Fuel Price Monitor — annual average estimate,https://www.iata.org/en/publications/economics/fuel-monitor/,,Verify and update from IATA fuel monitor historical data
+2,2024,2.55,0.653,3.91,1.03,IATA Jet Fuel Price Monitor — annual average estimate,https://www.iata.org/en/publications/economics/fuel-monitor/,,Verify and update from IATA fuel monitor historical data
+3,2025,2.4,0.632,3.8,1.0,IATA Jet Fuel Price Monitor — annual average estimate,https://www.iata.org/en/publications/economics/fuel-monitor/,,Preliminary estimate — verify from IATA site
+4,2023,2.8,0.664,4.22,1.11,IATA Jet Fuel Price Monitor — annual average estimate,https://www.iata.org/en/publications/economics/fuel-monitor/,,Verify and update from IATA fuel monitor historical data
+5,2024,2.55,0.653,3.91,1.03,IATA Jet Fuel Price Monitor — annual average estimate,https://www.iata.org/en/publications/economics/fuel-monitor/,,Verify and update from IATA fuel monitor historical data
+6,2025,2.4,0.632,3.8,1.0,IATA Jet Fuel Price Monitor — annual average estimate,https://www.iata.org/en/publications/economics/fuel-monitor/,,Preliminary estimate — verify from IATA site
+7,2023,2.8,0.664,4.22,1.11,IATA Jet Fuel Price Monitor — annual average estimate,https://www.iata.org/en/publications/economics/fuel-monitor/,,Verify and update from IATA fuel monitor historical data
+8,2024,2.55,0.653,3.91,1.03,IATA Jet Fuel Price Monitor — annual average estimate,https://www.iata.org/en/publications/economics/fuel-monitor/,,Verify and update from IATA fuel monitor historical data
+9,2025,2.4,0.632,3.8,1.0,IATA Jet Fuel Price Monitor — annual average estimate,https://www.iata.org/en/publications/economics/fuel-monitor/,,Preliminary estimate — verify from IATA site

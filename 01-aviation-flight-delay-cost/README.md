@@ -133,6 +133,9 @@ Applies only where arrivals_delayed < departures_delayed
 DD8 cost = recovery_sectors × fuel_burn_lph × 10%
          × sector_hours × fuel_price_aud_per_litre
 
+*For a complete fuel burn analysis across all delay causes and flight phases,
+see [Project 2: Fuel Burn Impact of Flight Delays](../02-aviation-fuel-burn-analysis/README.md).*
+
 recovery_sectors = |departures_delayed - arrivals_delayed|
 ```
 *For a complete fuel burn analysis across all delay causes and flight phases,
@@ -363,6 +366,21 @@ all displaced passengers on trunk routes.
 │       └── cost_model_results.csv
 └── charts/
 ```
+
+---
+
+## Citation
+
+> Mortera, E. (2026). *The Economic Cost of Australian Domestic Flight
+> Delays and Cancellations: A Lean Thinking Diagnostic of Australian
+> Domestic Aviation 2023-2025*. GitHub repository.
+> https://github.com/erick-m-lean-analytics/Transport-Operations-Analysis
+
+---
+
+## Contact
+---
+
 ## Licence
 
 This project uses a dual licence:
@@ -387,7 +405,7 @@ provided you give appropriate credit to the author.
 ## AI Assistance Disclosure
 
 Python code for data processing and visualisation was developed with
-assistance from an AI language model. All analytical
+assistance from Claude (Anthropic), an AI language model. All analytical
 decisions, cost framework design, assumptions, and interpretations are
 the author's own.
 
@@ -399,4 +417,3 @@ and all domain judgements.
 ---
 
 ## Contact
-erick.s.mortera@gmail.com

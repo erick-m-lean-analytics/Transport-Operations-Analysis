@@ -1,0 +1,6 @@
+id,airline,reporting_period,period_start,period_end,total_revenue_aud_m,total_operating_cost_aud_m,underlying_ebit_aud_m,ebit_margin_pct,total_sectors_flown,available_seat_km_m,cask_cents,cost_per_sector_aud,source_document,source_url,notes
+1,Qantas,FY23,2022-07-01,2023-06-30,21366.0,18900.0,2466.0,11.5,,,,,Qantas Group FY23 Annual Report,https://investor.qantas.com,Total revenue and underlying PBT from FY23 results — domestic segment not separately disclosed at this level
+2,Qantas,FY24,2023-07-01,2024-06-30,21919.0,18800.0,2080.0,9.5,,,,,Qantas Group FY24 Annual Report,https://investor.qantas.com,Underlying PBT AUD 2.08bn confirmed — total operating cost derived from revenue minus EBIT
+3,Qantas,FY25,2024-07-01,2025-06-30,,,,,,,,,Qantas Group FY25 Annual Report,https://investor.qantas.com,FY25 report downloaded — extract figures manually from PDF
+4,Virgin Australia,FY24,2023-07-01,2024-06-30,5100.0,4581.0,519.0,9.7,,,,,Virgin Australia FY24 Financial Statements,https://www.virginaustralia.com/investor-centre,"Revenue AUD 5.1bn, underlying EBIT AUD 519m confirmed — privately owned, limited cost breakdown available"
+5,Virgin Australia,FY25,2024-07-01,2025-06-30,,,,,,,,,Virgin Australia FY25 Annual Report,https://www.virginaustralia.com/investor-centre,FY25 report downloaded — extract figures manually from PDF

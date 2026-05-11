@@ -1,0 +1,27 @@
+id,airline_name,aircraft_code,year,is_primary_aircraft,avg_seats_actual,notes,source_citation
+1,Qantas,B738,2023,True,174,Primary domestic narrowbody — transitioning to A320neo from FY24,Qantas fleet page; Wikipedia Qantas fleet
+2,Qantas,B738,2024,True,174,Primary domestic narrowbody — A220 entering service late 2024,Qantas fleet page; Wikipedia Qantas fleet
+3,Qantas,B738,2025,True,174,Primary domestic narrowbody — mixed with A220 from 2025,Qantas fleet page; Wikipedia Qantas fleet
+4,Virgin Australia,B738,2023,True,174,All-Boeing 737 fleet confirmed — 737-800 and 737 MAX 8,Virgin Australia fleet page — all-Boeing 737 fleet as of Sep 2025
+5,Virgin Australia,B738,2024,True,174,All-Boeing 737 fleet — 737 MAX 8 entering service,Virgin Australia fleet page — all-Boeing 737 fleet as of Sep 2025
+6,Virgin Australia,B738,2025,True,174,All-Boeing 737 fleet confirmed,Virgin Australia fleet page — all-Boeing 737 fleet as of Sep 2025
+7,Jetstar,A320,2023,True,180,A320-200 primary domestic aircraft — 81 aircraft as of Mar 2025,Jetstar fleet page; Wikipedia Jetstar fleet
+8,Jetstar,A320,2024,True,180,A320-200 primary domestic aircraft,Jetstar fleet page; Wikipedia Jetstar fleet
+9,Jetstar,A320,2025,True,180,A320-200 primary domestic aircraft,Jetstar fleet page; Wikipedia Jetstar fleet
+10,QantasLink,DH8Q,2023,True,100,Mixed fleet B717+DH8Q+E190 — weighted avg ~100 seats used,QantasLink fleet page; B717 retirement announced Oct 2024
+11,QantasLink,DH8Q,2024,True,95,B717 retired Oct 2024 — DH8Q and E190 primary from late 2024,QantasLink fleet page; final B717 flight Oct 26 2024 confirmed
+12,QantasLink,DH8Q,2025,True,90,Post-B717 fleet — DH8Q and A220 primary,QantasLink fleet page; A220 entering service 2025
+13,Rex Airlines,SB34,2023,True,34,Saab 340B exclusively on regional routes — 33-34 seats,Rex Airlines fleet; Wikipedia Regional Express
+14,Rex Airlines,SB34,2024,True,34,Jet services suspended Jul 2024 — Saab 340 only post-administration,Rex entered voluntary administration Jul 2024 — jet ops ceased
+15,Rex Airlines,SB34,2025,True,34,Saab 340B exclusively — post-administration regional only,Rex Airlines fleet post-administration 2024
+16,Virgin Australia Regional Airlines,ATR7,2023,True,68,ATR 72-500 primary — 68 seats confirmed,Virgin Australia ATR 72-500 — 68 passengers economy class
+17,Virgin Australia Regional Airlines,ATR7,2024,True,68,ATR 72-500/600 — 68 seats,Virgin Australia ATR 72-500 — 68 passengers economy class
+18,Virgin Australia Regional Airlines,ATR7,2025,True,68,ATR 72-500/600 — 68 seats,Virgin Australia ATR 72-500 — 68 passengers economy class
+19,Skytrans,DH81,2023,True,36,Mixed Dash 8-100 and Cessna 208B — Dash 8 primary for RPT,"Skytrans fleet: 5x Dash 8-100, 5x Cessna 208B, 1x Dash 8-300"
+20,Skytrans,DH81,2024,True,36,Dash 8-100 primary — Cessna 208B retired May 2025,Skytrans ended Torres Strait Cessna services May 2025
+21,Skytrans,DH81,2025,True,36,Dash 8-100 primary post Cessna retirement,Skytrans ended Torres Strait Cessna services May 2025
+22,Hinterland,C208,2023,True,12,12-passenger Cessna 208B Grand Caravan fleet,Hinterland Aviation — 12-strong fleet of 12-passenger C208B confirmed
+23,Hinterland,C208,2024,True,12,12-passenger Cessna 208B Grand Caravan fleet,Hinterland Aviation fleet page
+24,Hinterland,C208,2025,True,12,12-passenger Cessna 208B Grand Caravan fleet,Hinterland Aviation fleet page
+25,Bonza,B738,2023,True,174,Boeing 737 MAX 8 — launched Jan 2023 collapsed Apr 2024,Bonza fleet page; Wikipedia Bonza Airlines
+26,Bonza,B738,2024,True,174,Boeing 737 MAX 8 — ceased operations Apr 2024,Bonza entered administration Apr 2024

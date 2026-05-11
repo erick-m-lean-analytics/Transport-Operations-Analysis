@@ -1,0 +1,9 @@
+aircraft_code,aircraft_name,manufacturer,seats,mtow_tonnes,fuel_burn_litres_ph,avg_sector_duration_hrs,engine_type,aircraft_tier,source_citation,date_added
+B738,Boeing 737-800,Boeing,174,79.0,2650.0,1.8,turbofan,mainline,Boeing 737 specs; ICAO Engine Databank; Qantas fleet page,2026-05-08
+A320,Airbus A320-200,Airbus,180,73.5,2520.0,1.8,turbofan,mainline,Airbus A320 specs; ICAO Engine Databank; Jetstar fleet page,2026-05-08
+B717,Boeing 717-200,Boeing,110,54.9,1980.0,1.2,turbofan,regional_jet,Boeing 717 specs; QantasLink fleet — retired Oct 2024,2026-05-08
+DH8Q,De Havilland Dash 8-Q400,De Havilland,78,29.6,1100.0,1.2,turboprop,regional_prop,De Havilland Q400 specs; QantasLink fleet page,2026-05-08
+ATR7,ATR 72-500/600,ATR,68,22.8,850.0,1.2,turboprop,regional_prop,ATR 72 specs; Virgin Australia Regional fleet page,2026-05-08
+SB34,Saab 340B,Saab,34,13.2,520.0,1.0,turboprop,remote_prop,Saab 340 specs; Rex Airlines fleet — 33-34 seats confirmed,2026-05-08
+DH81,De Havilland Dash 8-100,De Havilland,36,15.6,580.0,1.0,turboprop,remote_prop,De Havilland DHC-8-100 specs; Skytrans fleet page,2026-05-08
+C208,Cessna 208B Grand Caravan,Cessna,12,3.6,180.0,0.8,turboprop,remote_prop,Cessna 208B specs; Hinterland Aviation fleet — 12 passenger confirmed,2026-05-08
