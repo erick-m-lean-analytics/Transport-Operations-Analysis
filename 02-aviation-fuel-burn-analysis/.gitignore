@@ -1,0 +1,12 @@
+# Data
+data/raw/*
+*.csv
+
+# Jupyter
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
+
+# System
+.DS_Store
+.env
