@@ -168,7 +168,7 @@ delay causes.
 
 ---
 
-## FOE-Relevant Insights
+## Flight Operations Engineering (FOE)-Relevant Insights
 
 ### Contingency Fuel Consumed by Delays
 
@@ -201,8 +201,7 @@ Combined Projects 1 + 2 OneSKY benefit:
 
 Against a $1.9B OneSKY investment, this implies a payback period
 of approximately **2.1 years** — significantly stronger than the
-official 14-year estimate.
-
+iofficial 14-year estimate.
 ---
 
 ---
@@ -225,7 +224,7 @@ late arrival.
 ### 2 — Cascade Route Schedule Padding
 
 **Target:** Sydney–Melbourne, Sydney–Brisbane, Brisbane–Melbourne corridors  
-**Evidence:** The top 6 routes account for AUD $81.0 million in delay-related
+**Evidence:** The top 6 routes account for AUD $92.0 million in delay-related
 fuel cost over three years. Sydney–Melbourne alone accounts for AUD $43.2M
 (both directions combined).  
 **Action:** Add 5–10 minutes of block time to the top 10 cascade-vulnerable
@@ -233,7 +232,7 @@ routes, targeting mid-day and afternoon flights that feed into evening hub
 banks. Audit turnaround times against actual 80th percentile data — if
 scheduled turnaround is 35 minutes but actual 80th percentile is 42 minutes,
 the schedule is generating delay risk.  
-**Estimated Saving:** AUD $8.1M annually (10% reduction on top 6 routes)
+**Estimated Saving:** AUD $9.2M annually (10% reduction on top 6 routes)
 
 ### 3 — OneSKY ATC Fuel Case
 
@@ -305,7 +304,37 @@ Together, Projects 1 + 2 provide:
    Does not include base trip fuel, tankering, or diversion fuel.
 
 ---
+### Delay Cause Attribution — Methodology Note
 
+The fuel burn calculation distributes total delayed flights across
+delay causes using EUROCONTROL proportions (RC 46%, AL 27%, AT 14%,
+WX 7%, AP 6%). Each cause is then multiplied by the 30-minute average
+delay duration and the corresponding flight phase fuel burn rate.
+
+This does not double-count delays. The cause proportions sum to 100%,
+so the same pool of delayed flights is distributed across causes —
+not multiplied by each cause independently.
+
+However, this method assumes each delayed flight has one primary cause.
+In reality, a single flight may be delayed by multiple causes (e.g.
+10 minutes ATC + 20 minutes reactionary). The EUROCONTROL proportions
+reflect primary cause attribution — the dominant cause assigned to each
+delay event.
+
+**No Australian-specific delay cause breakdown exists in public data.**
+BITRE publishes delay counts but not cause attribution. Airservices
+Australia publishes ATFM ground delay attribution (Airservices vs
+non-Airservices) but this covers ATC delays only. The US Bureau of
+Transportation Statistics publishes per-flight cause codes (carrier,
+weather, NAS, security, late aircraft) but no Australian equivalent
+exists.
+
+A more granular calculation would require access to airline operational
+data (e.g. IATA FDX programme) or Airservices ATFM delay logs, neither
+of which is publicly available. This study therefore represents the
+best estimate achievable with public data, using internationally
+accepted attribution proportions.
+---
 ## Database Architecture
 
 This study reuses the Project 1 PostgreSQL database.
