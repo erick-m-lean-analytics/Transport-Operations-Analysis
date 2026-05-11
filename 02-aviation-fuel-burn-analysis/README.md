@@ -226,6 +226,24 @@ Together, Projects 1 + 2 provide:
 - **CO2 impact:** 1,304,870 tonnes/year (Project 2)
 - **Operational priorities:** Reactionary (31.7%), ATC (29.0%), Airline Ops (18.6%)
 
+### Cost Element Alignment
+
+Project 1 includes two fuel-related cost elements: DD1 (extra fuel burn
+at gate) and DD8 (in-flight recovery fuel). Project 2 extends fuel analysis
+to all delay causes and all flight phases — including airborne holding and
+en-route extension, which have no corresponding cost element in Project 1.
+
+| Project 2 Phase | Project 1 Element | Relationship |
+|---|---|---|
+| Ground taxi (RC, AL, AP) | DD1 — gate fuel burn | Extended — DD1 covers gate only; Project 2 includes full taxi phase |
+| Airborne holding (AT) | No element | New — not captured in Project 1 |
+| En-route extension (WX) | No element | New — not captured in Project 1 |
+| Speed recovery (DD8) | DD8 — recovery fuel | Direct match — Project 2 validates and extends DD8 across all carriers |
+
+**No double-counting occurs.** Project 1 costs are primarily crew, passenger,
+and infrastructure waste. Project 2 costs are fuel and emissions only.
+The two are additive — AUD $2.99B/year (Project 1) + AUD $547M/year
+(Project 2) represent different cost categories with minimal overlap.
 ---
 
 ## Key Assumptions
