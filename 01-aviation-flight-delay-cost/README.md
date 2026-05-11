@@ -135,6 +135,8 @@ DD8 cost = recovery_sectors × fuel_burn_lph × 10%
 
 recovery_sectors = |departures_delayed - arrivals_delayed|
 ```
+*For a complete fuel burn analysis across all delay causes and flight phases,
+see [Project 2: Fuel Burn Impact of Flight Delays](../02-aviation-fuel-burn-analysis/README.md).*
 
 ---
 
