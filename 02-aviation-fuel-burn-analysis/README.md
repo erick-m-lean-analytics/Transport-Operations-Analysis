@@ -205,6 +205,51 @@ official 14-year estimate.
 
 ---
 
+---
+
+## Recommendations
+
+### 1 — Cost Index Recalibration for Speed Recovery
+
+**Target:** Jetstar (primary), Virgin Australia Regional  
+**Evidence:** Jetstar recorded 15,185 speed recovery sectors over 2023–2025,
+burning AUD $7.26 million in additional fuel to mask ground delays.  
+**Action:** Recalibrate Flight Management System cost index to reflect
+current fuel prices (AUD $1.00–1.11/litre). At these prices, arriving
+3–5 minutes late is cheaper than burning 10% additional cruise fuel.
+Implement an "accept minor delays" dispatch policy for delays ≤10 minutes
+— the fuel saved by not accelerating outweighs the cost of a slightly
+late arrival.  
+**Estimated Saving:** AUD $2.4M annually (Jetstar alone)
+
+### 2 — Cascade Route Schedule Padding
+
+**Target:** Sydney–Melbourne, Sydney–Brisbane, Brisbane–Melbourne corridors  
+**Evidence:** The top 6 routes account for AUD $81.0 million in delay-related
+fuel cost over three years. Sydney–Melbourne alone accounts for AUD $43.2M
+(both directions combined).  
+**Action:** Add 5–10 minutes of block time to the top 10 cascade-vulnerable
+routes, targeting mid-day and afternoon flights that feed into evening hub
+banks. Audit turnaround times against actual 80th percentile data — if
+scheduled turnaround is 35 minutes but actual 80th percentile is 42 minutes,
+the schedule is generating delay risk.  
+**Estimated Saving:** AUD $8.1M annually (10% reduction on top 6 routes)
+
+### 3 — OneSKY ATC Fuel Case
+
+**Target:** Airservices Australia, Department of Infrastructure  
+**Evidence:** ATC delays represent 14% of all delays but 29% of fuel cost
+(AUD $476M over three years) because airborne holding burns fuel at
+35.2 kg/min — 3× the ground rate. A 25% delay reduction through OneSKY
+would save AUD $137M/year in fuel alone.  
+**Action:** Include fuel burn and CO2 reduction in OneSKY business case.
+Current official ROI uses a 14-year payback estimate. Adding fuel savings
+(AUD $137M/year) to delay cost savings (AUD $748M/year from Project 1)
+implies a combined annual benefit of AUD $885M/year against a $1.9B
+investment — a payback period of 2.1 years.  
+**Estimated Saving:** AUD $137M annually (fuel component only)
+---
+
 ## Connection to Project 1
 
 This analysis extends **Project 1: The Economic Cost of Australian
