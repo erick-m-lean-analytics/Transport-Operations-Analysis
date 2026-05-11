@@ -240,7 +240,9 @@ en-route extension, which have no corresponding cost element in Project 1.
 | En-route extension (WX) | No element | New — not captured in Project 1 |
 | Speed recovery (DD8) | DD8 — recovery fuel | Direct match — Project 2 validates and extends DD8 across all carriers |
 
-**No double-counting occurs.** Project 1 costs are primarily crew, passenger,
+**No double-counting occurs.** 
+
+Project 1 costs are primarily crew, passenger,
 and infrastructure waste. Project 2 costs are fuel and emissions only.
 The two are additive — AUD $2.99B/year (Project 1) + AUD $547M/year
 (Project 2) represent different cost categories with minimal overlap.
