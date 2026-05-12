@@ -1,0 +1,147 @@
+departing_port,arriving_port,unique_records,total_sectors_flown,total_sectors_scheduled,avg_otp_departures_pct,avg_otp_arrivals_pct
+Melbourne,Sydney,50,441088,474794,75.78,71.21
+Sydney,Melbourne,50,440218,473688,71.14,69.91
+Brisbane,Sydney,48,265192,277420,75.58,72.75
+Sydney,Brisbane,48,264958,276944,72.55,71.32
+Melbourne,Brisbane,50,205086,212558,71.45,69.35
+Brisbane,Melbourne,50,204276,211878,69.6,68.24
+Sydney,Gold Coast,50,147348,152090,74.01,73.45
+Gold Coast,Sydney,50,147096,152152,71.72,72.52
+Melbourne,Adelaide,53,143956,146814,73.36,70.57
+Adelaide,Melbourne,53,143626,146888,73.83,74.09
+Sydney,Canberra,35,134212,141784,80.15,80.9
+Canberra,Sydney,35,133612,141862,81.21,78.97
+Melbourne,Gold Coast,52,113116,116566,72.73,72.24
+Gold Coast,Melbourne,52,113000,116656,65.26,66.96
+Sydney,Adelaide,44,110426,113980,71.15,70.74
+Adelaide,Sydney,44,110172,114018,72.32,71.31
+Perth,Melbourne,40,97460,99692,69.25,72.24
+Melbourne,Perth,40,96172,98006,67.66,69.42
+Melbourne,Hobart,51,87318,88878,72.19,69.15
+Hobart,Melbourne,50,87088,88888,68.79,66.76
+Melbourne,Canberra,51,85808,88392,73.58,73.12
+Canberra,Melbourne,51,85478,88266,71.4,71.19
+Brisbane,Cairns,50,83708,84918,73.3,73.57
+Cairns,Brisbane,50,83596,84890,74.07,76.29
+Sydney,Perth,38,83526,84840,62.38,65.82
+Perth,Sydney,38,81538,83194,64.1,71.4
+Brisbane,Townsville,45,71530,72630,74.08,73.07
+Townsville,Brisbane,45,71320,72588,71.37,71.53
+Brisbane,Rockhampton,27,65650,66804,74.1,70.54
+Rockhampton,Brisbane,27,65320,66962,73.69,71.0
+Adelaide,Brisbane,48,64778,66116,78.14,80.17
+Brisbane,Adelaide,48,64718,66054,76.88,77.73
+Melbourne,Launceston,36,62720,64354,69.64,67.57
+Launceston,Melbourne,36,62554,64378,69.29,69.41
+Mackay,Brisbane,43,61880,63084,70.24,71.63
+Brisbane,Mackay,43,61564,62500,70.39,70.44
+Brisbane,Perth,35,59918,60818,66.5,71.32
+Perth,Brisbane,35,59800,60758,67.27,70.49
+Adelaide,Port Lincoln,27,59586,61268,85.73,84.01
+Brisbane,Canberra,44,59570,60740,77.37,77.96
+Port Lincoln,Adelaide,27,59430,61278,85.37,84.66
+Canberra,Brisbane,44,59352,60726,76.46,77.89
+Sydney,Cairns,40,51152,51980,74.17,75.97
+Cairns,Sydney,40,51086,52112,72.72,74.27
+Brisbane,Newcastle,36,50300,51626,75.36,74.0
+Newcastle,Brisbane,36,50140,51704,76.81,76.07
+Sydney,Hobart,45,49664,50756,73.98,76.16
+Hobart,Sydney,45,49534,50752,72.84,71.12
+Sydney,Dubbo,27,47394,48324,71.91,75.2
+Perth,Karratha,45,47390,48528,82.15,79.95
+Karratha,Perth,45,47012,48398,74.39,75.1
+Dubbo,Sydney,27,46886,47980,77.47,74.47
+Sydney,Sunshine Coast,41,46208,47162,70.97,70.16
+Sunshine Coast,Sydney,41,46046,47262,69.31,64.28
+Melbourne,Cairns,38,43138,43910,73.57,73.93
+Cairns,Melbourne,38,43012,43892,65.8,68.05
+Sydney,Coffs Harbour,33,42640,43384,74.09,76.81
+Sydney,Albury,29,42494,43106,75.69,76.8
+Coffs Harbour,Sydney,33,42464,43336,76.91,74.23
+Albury,Sydney,29,42428,43160,77.78,75.57
+Melbourne,Mildura,32,42358,42954,71.47,68.71
+Mildura,Melbourne,32,42238,42950,68.15,65.52
+Sydney,Wagga Wagga,27,42006,42692,76.91,78.38
+Wagga Wagga,Sydney,27,41760,42602,80.25,77.77
+Perth,Adelaide,51,40890,41796,70.51,68.02
+Adelaide,Perth,51,40604,41550,66.74,68.1
+Perth,Port Hedland,43,40116,41250,81.87,80.9
+Port Hedland,Perth,43,39808,41194,68.75,68.77
+Melbourne,Sunshine Coast,43,38954,39444,72.7,72.21
+Sunshine Coast,Melbourne,43,38862,39498,60.24,61.74
+Sydney,Ballina,39,37482,38506,78.4,76.82
+Sydney,Port Macquarie,27,37474,38440,73.42,75.14
+Ballina,Sydney,39,37356,38534,71.13,70.73
+Port Macquarie,Sydney,27,37284,38372,76.48,71.83
+Brisbane,Gladstone,27,37140,38408,77.42,76.6
+Gladstone,Brisbane,27,37014,38414,78.55,75.11
+Perth,Newman,45,36366,37284,86.85,85.53
+Newman,Perth,45,36162,37314,79.91,75.9
+Perth,Kalgoorlie,45,34176,35278,83.42,80.33
+Kalgoorlie,Perth,45,34080,35318,72.6,74.09
+Brisbane,Emerald,27,31278,31904,81.44,82.52
+Emerald,Brisbane,27,31150,31892,82.81,82.92
+Melbourne,Newcastle,34,30318,30812,69.96,68.41
+Newcastle,Melbourne,34,30304,30908,70.32,68.34
+Perth,Broome,44,29352,30076,72.31,77.33
+Broome,Perth,44,29188,30096,58.99,66.15
+Cairns,Townsville,27,27196,28054,85.33,85.65
+Townsville,Cairns,27,27094,28074,86.97,87.05
+Brisbane,Darwin,44,21866,22122,73.87,74.86
+Darwin,Brisbane,44,21842,22174,66.32,70.58
+Adelaide,Canberra,30,20716,20968,77.57,76.43
+Canberra,Adelaide,30,20666,20950,78.54,78.22
+Sydney,Launceston,34,20622,20912,72.4,75.14
+Launceston,Sydney,34,20588,20980,68.53,68.41
+Sydney,Armidale,18,20044,20760,73.88,77.53
+Armidale,Sydney,18,20032,20918,75.38,71.33
+Brisbane,Hobart,40,18794,19062,80.07,77.15
+Hobart,Brisbane,40,18724,19054,68.42,69.05
+Proserpine,Brisbane,35,18464,18844,67.88,69.4
+Brisbane,Proserpine,35,18456,18768,77.78,76.65
+Melbourne,Darwin,39,17880,18034,64.31,63.73
+Darwin,Melbourne,39,17820,18088,62.12,64.74
+Melbourne,Devonport,18,17454,17912,79.14,79.85
+Devonport,Melbourne,18,17364,17916,79.72,76.67
+Sydney,Hamilton Island,38,16668,16808,75.06,74.23
+Hamilton Island,Sydney,38,16642,16880,62.86,62.67
+Brisbane,Mount Isa,36,14940,15046,81.39,78.23
+Mount Isa,Brisbane,36,14788,14976,75.07,73.63
+Adelaide,Gold Coast,33,13826,14016,84.3,84.55
+Gold Coast,Adelaide,33,13816,14008,72.77,74.46
+Brisbane,Hamilton Island,30,13066,13258,79.09,78.54
+Hamilton Island,Brisbane,30,13036,13252,68.53,70.49
+Perth,Darwin,43,12328,12554,75.05,74.1
+Darwin,Perth,43,12278,12542,67.21,69.79
+Adelaide,Alice Springs,31,11854,11926,80.98,77.3
+Alice Springs,Adelaide,31,11828,11928,68.38,69.17
+Sydney,Tamworth,6,8224,8344,77.91,77.42
+Tamworth,Sydney,6,8168,8312,82.64,79.73
+Sydney,Darwin,20,7682,7764,62.46,65.67
+Darwin,Sydney,20,7668,7782,57.01,62.51
+Canberra,Gold Coast,23,7300,7376,68.32,71.9
+Gold Coast,Canberra,23,7300,7352,67.86,69.84
+Brisbane,Bundaberg,6,6886,6912,88.01,87.67
+Bundaberg,Brisbane,6,6880,6918,89.39,88.83
+Brisbane,Launceston,26,6600,6676,64.92,65.96
+Launceston,Brisbane,26,6576,6698,57.6,61.94
+Darwin,Alice Springs,9,3464,3552,88.87,85.27
+Alice Springs,Darwin,9,3450,3546,85.38,84.82
+Perth,Geraldton,6,3406,3446,84.15,84.72
+Geraldton,Perth,6,3384,3444,84.23,84.8
+Sydney,Ayers Rock,6,2822,2824,80.86,77.65
+Ayers Rock,Sydney,6,2814,2828,60.65,67.6
+Sydney,Townsville,6,2422,2440,73.62,74.19
+Townsville,Sydney,6,2418,2440,67.3,72.49
+Darwin,Adelaide,12,2360,2392,67.45,83.07
+Adelaide,Darwin,12,2348,2376,78.74,67.38
+Sydney,Proserpine,6,1664,1678,81.12,83.33
+Proserpine,Sydney,6,1662,1682,73.13,75.3
+Melbourne,Ayers Rock,6,984,984,87.28,88.43
+Ayers Rock,Melbourne,6,978,982,84.84,92.05
+Adelaide,Cairns,8,580,592,84.73,76.72
+Cairns,Adelaide,8,580,592,62.29,49.23
+Melbourne,Townsville,3,568,576,74.89,72.9
+Townsville,Melbourne,3,566,576,64.68,70.17
+Cairns,Gold Coast,6,532,536,64.48,64.27
+Gold Coast,Cairns,6,524,532,77.76,76.31

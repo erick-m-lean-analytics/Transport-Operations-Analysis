@@ -1,0 +1,629 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d1" for="edge" attr.name="otp_pct" attr.type="double"/>
+<key id="d0" for="edge" attr.name="weight" attr.type="long"/>
+<graph edgedefault="directed"><node id="Adelaide"/>
+<node id="Albury"/>
+<node id="Alice Springs"/>
+<node id="Armidale"/>
+<node id="Ayers Rock"/>
+<node id="Ballina"/>
+<node id="Brisbane"/>
+<node id="Broome"/>
+<node id="Bundaberg"/>
+<node id="Cairns"/>
+<node id="Canberra"/>
+<node id="Coffs Harbour"/>
+<node id="Darwin"/>
+<node id="Devonport"/>
+<node id="Dubbo"/>
+<node id="Emerald"/>
+<node id="Geraldton"/>
+<node id="Gladstone"/>
+<node id="Gold Coast"/>
+<node id="Hamilton Island"/>
+<node id="Hobart"/>
+<node id="Kalgoorlie"/>
+<node id="Karratha"/>
+<node id="Launceston"/>
+<node id="Mackay"/>
+<node id="Melbourne"/>
+<node id="Mildura"/>
+<node id="Mount Isa"/>
+<node id="Newcastle"/>
+<node id="Newman"/>
+<node id="Perth"/>
+<node id="Port Hedland"/>
+<node id="Port Lincoln"/>
+<node id="Port Macquarie"/>
+<node id="Proserpine"/>
+<node id="Rockhampton"/>
+<node id="Sunshine Coast"/>
+<node id="Sydney"/>
+<node id="Tamworth"/>
+<node id="Townsville"/>
+<node id="Wagga Wagga"/>
+<edge source="Adelaide" target="Melbourne">
+  <data key="d0">143626</data>
+  <data key="d1">73.83</data>
+</edge>
+<edge source="Adelaide" target="Sydney">
+  <data key="d0">110172</data>
+  <data key="d1">72.32</data>
+</edge>
+<edge source="Adelaide" target="Brisbane">
+  <data key="d0">64778</data>
+  <data key="d1">78.14</data>
+</edge>
+<edge source="Adelaide" target="Port Lincoln">
+  <data key="d0">59586</data>
+  <data key="d1">85.73</data>
+</edge>
+<edge source="Adelaide" target="Perth">
+  <data key="d0">40604</data>
+  <data key="d1">66.74</data>
+</edge>
+<edge source="Adelaide" target="Canberra">
+  <data key="d0">20716</data>
+  <data key="d1">77.57</data>
+</edge>
+<edge source="Adelaide" target="Gold Coast">
+  <data key="d0">13826</data>
+  <data key="d1">84.3</data>
+</edge>
+<edge source="Adelaide" target="Alice Springs">
+  <data key="d0">11854</data>
+  <data key="d1">80.98</data>
+</edge>
+<edge source="Adelaide" target="Darwin">
+  <data key="d0">2348</data>
+  <data key="d1">78.74</data>
+</edge>
+<edge source="Adelaide" target="Cairns">
+  <data key="d0">580</data>
+  <data key="d1">84.73</data>
+</edge>
+<edge source="Albury" target="Sydney">
+  <data key="d0">42428</data>
+  <data key="d1">77.78</data>
+</edge>
+<edge source="Alice Springs" target="Adelaide">
+  <data key="d0">11828</data>
+  <data key="d1">68.38</data>
+</edge>
+<edge source="Alice Springs" target="Darwin">
+  <data key="d0">3450</data>
+  <data key="d1">85.38</data>
+</edge>
+<edge source="Armidale" target="Sydney">
+  <data key="d0">20032</data>
+  <data key="d1">75.38</data>
+</edge>
+<edge source="Ayers Rock" target="Sydney">
+  <data key="d0">2814</data>
+  <data key="d1">60.65</data>
+</edge>
+<edge source="Ayers Rock" target="Melbourne">
+  <data key="d0">978</data>
+  <data key="d1">84.84</data>
+</edge>
+<edge source="Ballina" target="Sydney">
+  <data key="d0">37356</data>
+  <data key="d1">71.13</data>
+</edge>
+<edge source="Brisbane" target="Sydney">
+  <data key="d0">265192</data>
+  <data key="d1">75.58</data>
+</edge>
+<edge source="Brisbane" target="Melbourne">
+  <data key="d0">204276</data>
+  <data key="d1">69.6</data>
+</edge>
+<edge source="Brisbane" target="Cairns">
+  <data key="d0">83708</data>
+  <data key="d1">73.3</data>
+</edge>
+<edge source="Brisbane" target="Townsville">
+  <data key="d0">71530</data>
+  <data key="d1">74.08</data>
+</edge>
+<edge source="Brisbane" target="Rockhampton">
+  <data key="d0">65650</data>
+  <data key="d1">74.1</data>
+</edge>
+<edge source="Brisbane" target="Adelaide">
+  <data key="d0">64718</data>
+  <data key="d1">76.88</data>
+</edge>
+<edge source="Brisbane" target="Mackay">
+  <data key="d0">61564</data>
+  <data key="d1">70.39</data>
+</edge>
+<edge source="Brisbane" target="Perth">
+  <data key="d0">59918</data>
+  <data key="d1">66.5</data>
+</edge>
+<edge source="Brisbane" target="Canberra">
+  <data key="d0">59570</data>
+  <data key="d1">77.37</data>
+</edge>
+<edge source="Brisbane" target="Newcastle">
+  <data key="d0">50300</data>
+  <data key="d1">75.36</data>
+</edge>
+<edge source="Brisbane" target="Gladstone">
+  <data key="d0">37140</data>
+  <data key="d1">77.42</data>
+</edge>
+<edge source="Brisbane" target="Emerald">
+  <data key="d0">31278</data>
+  <data key="d1">81.44</data>
+</edge>
+<edge source="Brisbane" target="Darwin">
+  <data key="d0">21866</data>
+  <data key="d1">73.87</data>
+</edge>
+<edge source="Brisbane" target="Hobart">
+  <data key="d0">18794</data>
+  <data key="d1">80.07</data>
+</edge>
+<edge source="Brisbane" target="Proserpine">
+  <data key="d0">18456</data>
+  <data key="d1">77.78</data>
+</edge>
+<edge source="Brisbane" target="Mount Isa">
+  <data key="d0">14940</data>
+  <data key="d1">81.39</data>
+</edge>
+<edge source="Brisbane" target="Hamilton Island">
+  <data key="d0">13066</data>
+  <data key="d1">79.09</data>
+</edge>
+<edge source="Brisbane" target="Bundaberg">
+  <data key="d0">6886</data>
+  <data key="d1">88.01</data>
+</edge>
+<edge source="Brisbane" target="Launceston">
+  <data key="d0">6600</data>
+  <data key="d1">64.92</data>
+</edge>
+<edge source="Broome" target="Perth">
+  <data key="d0">29188</data>
+  <data key="d1">58.99</data>
+</edge>
+<edge source="Bundaberg" target="Brisbane">
+  <data key="d0">6880</data>
+  <data key="d1">89.39</data>
+</edge>
+<edge source="Cairns" target="Brisbane">
+  <data key="d0">83596</data>
+  <data key="d1">74.07</data>
+</edge>
+<edge source="Cairns" target="Sydney">
+  <data key="d0">51086</data>
+  <data key="d1">72.72</data>
+</edge>
+<edge source="Cairns" target="Melbourne">
+  <data key="d0">43012</data>
+  <data key="d1">65.8</data>
+</edge>
+<edge source="Cairns" target="Townsville">
+  <data key="d0">27196</data>
+  <data key="d1">85.33</data>
+</edge>
+<edge source="Cairns" target="Adelaide">
+  <data key="d0">580</data>
+  <data key="d1">62.29</data>
+</edge>
+<edge source="Cairns" target="Gold Coast">
+  <data key="d0">532</data>
+  <data key="d1">64.48</data>
+</edge>
+<edge source="Canberra" target="Sydney">
+  <data key="d0">133612</data>
+  <data key="d1">81.21</data>
+</edge>
+<edge source="Canberra" target="Melbourne">
+  <data key="d0">85478</data>
+  <data key="d1">71.4</data>
+</edge>
+<edge source="Canberra" target="Brisbane">
+  <data key="d0">59352</data>
+  <data key="d1">76.46</data>
+</edge>
+<edge source="Canberra" target="Adelaide">
+  <data key="d0">20666</data>
+  <data key="d1">78.54</data>
+</edge>
+<edge source="Canberra" target="Gold Coast">
+  <data key="d0">7300</data>
+  <data key="d1">68.32</data>
+</edge>
+<edge source="Coffs Harbour" target="Sydney">
+  <data key="d0">42464</data>
+  <data key="d1">76.91</data>
+</edge>
+<edge source="Darwin" target="Brisbane">
+  <data key="d0">21842</data>
+  <data key="d1">66.32</data>
+</edge>
+<edge source="Darwin" target="Melbourne">
+  <data key="d0">17820</data>
+  <data key="d1">62.12</data>
+</edge>
+<edge source="Darwin" target="Perth">
+  <data key="d0">12278</data>
+  <data key="d1">67.21</data>
+</edge>
+<edge source="Darwin" target="Sydney">
+  <data key="d0">7668</data>
+  <data key="d1">57.01</data>
+</edge>
+<edge source="Darwin" target="Alice Springs">
+  <data key="d0">3464</data>
+  <data key="d1">88.87</data>
+</edge>
+<edge source="Darwin" target="Adelaide">
+  <data key="d0">2360</data>
+  <data key="d1">67.45</data>
+</edge>
+<edge source="Devonport" target="Melbourne">
+  <data key="d0">17364</data>
+  <data key="d1">79.72</data>
+</edge>
+<edge source="Dubbo" target="Sydney">
+  <data key="d0">46886</data>
+  <data key="d1">77.47</data>
+</edge>
+<edge source="Emerald" target="Brisbane">
+  <data key="d0">31150</data>
+  <data key="d1">82.81</data>
+</edge>
+<edge source="Geraldton" target="Perth">
+  <data key="d0">3384</data>
+  <data key="d1">84.23</data>
+</edge>
+<edge source="Gladstone" target="Brisbane">
+  <data key="d0">37014</data>
+  <data key="d1">78.55</data>
+</edge>
+<edge source="Gold Coast" target="Sydney">
+  <data key="d0">147096</data>
+  <data key="d1">71.72</data>
+</edge>
+<edge source="Gold Coast" target="Melbourne">
+  <data key="d0">113000</data>
+  <data key="d1">65.26</data>
+</edge>
+<edge source="Gold Coast" target="Adelaide">
+  <data key="d0">13816</data>
+  <data key="d1">72.77</data>
+</edge>
+<edge source="Gold Coast" target="Canberra">
+  <data key="d0">7300</data>
+  <data key="d1">67.86</data>
+</edge>
+<edge source="Gold Coast" target="Cairns">
+  <data key="d0">524</data>
+  <data key="d1">77.76</data>
+</edge>
+<edge source="Hamilton Island" target="Sydney">
+  <data key="d0">16642</data>
+  <data key="d1">62.86</data>
+</edge>
+<edge source="Hamilton Island" target="Brisbane">
+  <data key="d0">13036</data>
+  <data key="d1">68.53</data>
+</edge>
+<edge source="Hobart" target="Melbourne">
+  <data key="d0">87088</data>
+  <data key="d1">68.79</data>
+</edge>
+<edge source="Hobart" target="Sydney">
+  <data key="d0">49534</data>
+  <data key="d1">72.84</data>
+</edge>
+<edge source="Hobart" target="Brisbane">
+  <data key="d0">18724</data>
+  <data key="d1">68.42</data>
+</edge>
+<edge source="Kalgoorlie" target="Perth">
+  <data key="d0">34080</data>
+  <data key="d1">72.6</data>
+</edge>
+<edge source="Karratha" target="Perth">
+  <data key="d0">47012</data>
+  <data key="d1">74.39</data>
+</edge>
+<edge source="Launceston" target="Melbourne">
+  <data key="d0">62554</data>
+  <data key="d1">69.29</data>
+</edge>
+<edge source="Launceston" target="Sydney">
+  <data key="d0">20588</data>
+  <data key="d1">68.53</data>
+</edge>
+<edge source="Launceston" target="Brisbane">
+  <data key="d0">6576</data>
+  <data key="d1">57.6</data>
+</edge>
+<edge source="Mackay" target="Brisbane">
+  <data key="d0">61880</data>
+  <data key="d1">70.24</data>
+</edge>
+<edge source="Melbourne" target="Sydney">
+  <data key="d0">441088</data>
+  <data key="d1">75.78</data>
+</edge>
+<edge source="Melbourne" target="Brisbane">
+  <data key="d0">205086</data>
+  <data key="d1">71.45</data>
+</edge>
+<edge source="Melbourne" target="Adelaide">
+  <data key="d0">143956</data>
+  <data key="d1">73.36</data>
+</edge>
+<edge source="Melbourne" target="Gold Coast">
+  <data key="d0">113116</data>
+  <data key="d1">72.73</data>
+</edge>
+<edge source="Melbourne" target="Perth">
+  <data key="d0">96172</data>
+  <data key="d1">67.66</data>
+</edge>
+<edge source="Melbourne" target="Hobart">
+  <data key="d0">87318</data>
+  <data key="d1">72.19</data>
+</edge>
+<edge source="Melbourne" target="Canberra">
+  <data key="d0">85808</data>
+  <data key="d1">73.58</data>
+</edge>
+<edge source="Melbourne" target="Launceston">
+  <data key="d0">62720</data>
+  <data key="d1">69.64</data>
+</edge>
+<edge source="Melbourne" target="Cairns">
+  <data key="d0">43138</data>
+  <data key="d1">73.57</data>
+</edge>
+<edge source="Melbourne" target="Mildura">
+  <data key="d0">42358</data>
+  <data key="d1">71.47</data>
+</edge>
+<edge source="Melbourne" target="Sunshine Coast">
+  <data key="d0">38954</data>
+  <data key="d1">72.7</data>
+</edge>
+<edge source="Melbourne" target="Newcastle">
+  <data key="d0">30318</data>
+  <data key="d1">69.96</data>
+</edge>
+<edge source="Melbourne" target="Darwin">
+  <data key="d0">17880</data>
+  <data key="d1">64.31</data>
+</edge>
+<edge source="Melbourne" target="Devonport">
+  <data key="d0">17454</data>
+  <data key="d1">79.14</data>
+</edge>
+<edge source="Melbourne" target="Ayers Rock">
+  <data key="d0">984</data>
+  <data key="d1">87.28</data>
+</edge>
+<edge source="Melbourne" target="Townsville">
+  <data key="d0">568</data>
+  <data key="d1">74.89</data>
+</edge>
+<edge source="Mildura" target="Melbourne">
+  <data key="d0">42238</data>
+  <data key="d1">68.15</data>
+</edge>
+<edge source="Mount Isa" target="Brisbane">
+  <data key="d0">14788</data>
+  <data key="d1">75.07</data>
+</edge>
+<edge source="Newcastle" target="Brisbane">
+  <data key="d0">50140</data>
+  <data key="d1">76.81</data>
+</edge>
+<edge source="Newcastle" target="Melbourne">
+  <data key="d0">30304</data>
+  <data key="d1">70.32</data>
+</edge>
+<edge source="Newman" target="Perth">
+  <data key="d0">36162</data>
+  <data key="d1">79.91</data>
+</edge>
+<edge source="Perth" target="Melbourne">
+  <data key="d0">97460</data>
+  <data key="d1">69.25</data>
+</edge>
+<edge source="Perth" target="Sydney">
+  <data key="d0">81538</data>
+  <data key="d1">64.1</data>
+</edge>
+<edge source="Perth" target="Brisbane">
+  <data key="d0">59800</data>
+  <data key="d1">67.27</data>
+</edge>
+<edge source="Perth" target="Karratha">
+  <data key="d0">47390</data>
+  <data key="d1">82.15</data>
+</edge>
+<edge source="Perth" target="Adelaide">
+  <data key="d0">40890</data>
+  <data key="d1">70.51</data>
+</edge>
+<edge source="Perth" target="Port Hedland">
+  <data key="d0">40116</data>
+  <data key="d1">81.87</data>
+</edge>
+<edge source="Perth" target="Newman">
+  <data key="d0">36366</data>
+  <data key="d1">86.85</data>
+</edge>
+<edge source="Perth" target="Kalgoorlie">
+  <data key="d0">34176</data>
+  <data key="d1">83.42</data>
+</edge>
+<edge source="Perth" target="Broome">
+  <data key="d0">29352</data>
+  <data key="d1">72.31</data>
+</edge>
+<edge source="Perth" target="Darwin">
+  <data key="d0">12328</data>
+  <data key="d1">75.05</data>
+</edge>
+<edge source="Perth" target="Geraldton">
+  <data key="d0">3406</data>
+  <data key="d1">84.15</data>
+</edge>
+<edge source="Port Hedland" target="Perth">
+  <data key="d0">39808</data>
+  <data key="d1">68.75</data>
+</edge>
+<edge source="Port Lincoln" target="Adelaide">
+  <data key="d0">59430</data>
+  <data key="d1">85.37</data>
+</edge>
+<edge source="Port Macquarie" target="Sydney">
+  <data key="d0">37284</data>
+  <data key="d1">76.48</data>
+</edge>
+<edge source="Proserpine" target="Brisbane">
+  <data key="d0">18464</data>
+  <data key="d1">67.88</data>
+</edge>
+<edge source="Proserpine" target="Sydney">
+  <data key="d0">1662</data>
+  <data key="d1">73.13</data>
+</edge>
+<edge source="Rockhampton" target="Brisbane">
+  <data key="d0">65320</data>
+  <data key="d1">73.69</data>
+</edge>
+<edge source="Sunshine Coast" target="Sydney">
+  <data key="d0">46046</data>
+  <data key="d1">69.31</data>
+</edge>
+<edge source="Sunshine Coast" target="Melbourne">
+  <data key="d0">38862</data>
+  <data key="d1">60.24</data>
+</edge>
+<edge source="Sydney" target="Melbourne">
+  <data key="d0">440218</data>
+  <data key="d1">71.14</data>
+</edge>
+<edge source="Sydney" target="Brisbane">
+  <data key="d0">264958</data>
+  <data key="d1">72.55</data>
+</edge>
+<edge source="Sydney" target="Gold Coast">
+  <data key="d0">147348</data>
+  <data key="d1">74.01</data>
+</edge>
+<edge source="Sydney" target="Canberra">
+  <data key="d0">134212</data>
+  <data key="d1">80.15</data>
+</edge>
+<edge source="Sydney" target="Adelaide">
+  <data key="d0">110426</data>
+  <data key="d1">71.15</data>
+</edge>
+<edge source="Sydney" target="Perth">
+  <data key="d0">83526</data>
+  <data key="d1">62.38</data>
+</edge>
+<edge source="Sydney" target="Cairns">
+  <data key="d0">51152</data>
+  <data key="d1">74.17</data>
+</edge>
+<edge source="Sydney" target="Hobart">
+  <data key="d0">49664</data>
+  <data key="d1">73.98</data>
+</edge>
+<edge source="Sydney" target="Dubbo">
+  <data key="d0">47394</data>
+  <data key="d1">71.91</data>
+</edge>
+<edge source="Sydney" target="Sunshine Coast">
+  <data key="d0">46208</data>
+  <data key="d1">70.97</data>
+</edge>
+<edge source="Sydney" target="Coffs Harbour">
+  <data key="d0">42640</data>
+  <data key="d1">74.09</data>
+</edge>
+<edge source="Sydney" target="Albury">
+  <data key="d0">42494</data>
+  <data key="d1">75.69</data>
+</edge>
+<edge source="Sydney" target="Wagga Wagga">
+  <data key="d0">42006</data>
+  <data key="d1">76.91</data>
+</edge>
+<edge source="Sydney" target="Ballina">
+  <data key="d0">37482</data>
+  <data key="d1">78.4</data>
+</edge>
+<edge source="Sydney" target="Port Macquarie">
+  <data key="d0">37474</data>
+  <data key="d1">73.42</data>
+</edge>
+<edge source="Sydney" target="Launceston">
+  <data key="d0">20622</data>
+  <data key="d1">72.4</data>
+</edge>
+<edge source="Sydney" target="Armidale">
+  <data key="d0">20044</data>
+  <data key="d1">73.88</data>
+</edge>
+<edge source="Sydney" target="Hamilton Island">
+  <data key="d0">16668</data>
+  <data key="d1">75.06</data>
+</edge>
+<edge source="Sydney" target="Tamworth">
+  <data key="d0">8224</data>
+  <data key="d1">77.91</data>
+</edge>
+<edge source="Sydney" target="Darwin">
+  <data key="d0">7682</data>
+  <data key="d1">62.46</data>
+</edge>
+<edge source="Sydney" target="Ayers Rock">
+  <data key="d0">2822</data>
+  <data key="d1">80.86</data>
+</edge>
+<edge source="Sydney" target="Townsville">
+  <data key="d0">2422</data>
+  <data key="d1">73.62</data>
+</edge>
+<edge source="Sydney" target="Proserpine">
+  <data key="d0">1664</data>
+  <data key="d1">81.12</data>
+</edge>
+<edge source="Tamworth" target="Sydney">
+  <data key="d0">8168</data>
+  <data key="d1">82.64</data>
+</edge>
+<edge source="Townsville" target="Brisbane">
+  <data key="d0">71320</data>
+  <data key="d1">71.37</data>
+</edge>
+<edge source="Townsville" target="Cairns">
+  <data key="d0">27094</data>
+  <data key="d1">86.97</data>
+</edge>
+<edge source="Townsville" target="Sydney">
+  <data key="d0">2418</data>
+  <data key="d1">67.3</data>
+</edge>
+<edge source="Townsville" target="Melbourne">
+  <data key="d0">566</data>
+  <data key="d1">64.68</data>
+</edge>
+<edge source="Wagga Wagga" target="Sydney">
+  <data key="d0">41760</data>
+  <data key="d1">80.25</data>
+</edge>
+</graph></graphml>
