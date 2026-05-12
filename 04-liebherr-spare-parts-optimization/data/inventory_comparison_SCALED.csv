@@ -1,0 +1,10 @@
+Metric,Baseline,Optimized,Improvement
+Average Inventory Value (AUD),"$46,000,000","$23,726,339","$22,273,661 (-48.4%)"
+Annual Holding Cost (23%) (AUD),"$10,580,000","$5,457,059","$5,122,942 (-48.4%)"
+Inventory Turnover (times/year),2.0,3.9,+1.9
+Days on Hand,182,94,-89
+Inventory as % of Revenue,2.00%,1.03%,-0.97pp
+Annual Savings (AUD),-,"$5,122,942","$5,122,942/year"
+Scaling Factor Applied,1.84x,-,-
+Sample Parts Modeled,25,-,-
+Estimated Total Parts,460,-,-

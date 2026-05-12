@@ -1,0 +1,26 @@
+Part_ID,Part_Name,Equipment_Type,Applicable_Equipment_Count,MTBF_hours,Failures_Per_Unit_Year,Annual_Demand_Units,Criticality,Unit_Cost_AUD,Annual_Cost_AUD,Lead_Time_weeks,Recommended_Safety_Stock,Category,Cumulative_Cost_Pct,ABC_Class
+HP002,Hydraulic Main Pump,Haul Truck,191,7000,0.94,179.3,A,75000,13445036.0,12,62.1,Hydraulics,26.9,A
+FD002,Final Drive Assembly,Haul Truck,191,10000,0.66,125.5,A,95000,11921265.0,16,57.9,Drivetrain,50.8,A
+EL001,Generator,Haul Truck,191,12000,0.55,104.6,A,55000,5751487.0,14,42.2,Electrical,62.4,A
+WP002,Liner Plate (truck body),Haul Truck,191,3000,2.19,418.3,B,8500,3555465.0,4,48.3,Wear Parts,69.5,A
+HP001,Hydraulic Main Pump,Excavator,22,6000,1.09,24.1,A,65000,1565850.0,12,8.3,Hydraulics,72.6,A
+FD001,Final Drive Assembly,Excavator,22,8000,0.82,18.1,A,85000,1535738.0,16,8.3,Drivetrain,75.7,A
+GET002,Cutting Edge,Excavator,22,800,8.21,180.7,C,8500,1535738.0,2,10.4,Ground Engaging,78.8,A
+EL003,Alternator,Haul Truck,191,10000,0.66,125.5,C,12000,1505844.0,4,14.5,Electrical,81.8,B
+SB001,Slewing Bearing,Excavator,22,12000,0.55,12.0,A,120000,1445400.0,20,6.9,Structural,84.7,B
+UC004,Track Chain Assembly,Excavator,22,6000,1.09,24.1,B,45000,1084050.0,10,6.9,Undercarriage,86.9,B
+FT001,Engine Oil Filter,All,214,250,26.28,5623.9,C,150,843588.0,1,162.2,Consumables,88.6,B
+FT002,Hydraulic Filter,All,214,500,13.14,2812.0,C,280,787349.0,1,81.1,Consumables,90.1,B
+GET001,Bucket Teeth (set of 10),Excavator,22,500,13.14,289.1,C,2500,722700.0,2,16.7,Ground Engaging,91.6,B
+GET003,Side Cutter,Excavator,22,1000,6.57,144.5,C,4500,650430.0,3,12.5,Ground Engaging,92.9,B
+FT003,Fuel Filter,All,214,500,13.14,2812.0,C,220,618631.0,1,81.1,Consumables,94.1,B
+HC003,Bucket Cylinder,Excavator,22,8000,0.82,18.1,B,28000,505890.0,8,4.2,Hydraulics,95.1,C
+HC001,Boom Cylinder,Excavator,22,10000,0.66,14.5,B,35000,505890.0,8,3.3,Hydraulics,96.2,C
+WP001,Wear Plate (bucket),Excavator,22,2000,3.29,72.3,B,6500,469755.0,4,8.3,Wear Parts,97.1,C
+HC002,Stick Cylinder,Excavator,22,10000,0.66,14.5,B,32000,462528.0,8,3.3,Hydraulics,98.0,C
+UC001,Track Roller,Excavator,22,5000,1.31,28.9,B,8500,245718.0,6,5.0,Undercarriage,98.5,C
+UC002,Sprocket,Excavator,22,8000,0.82,18.1,B,12000,216810.0,6,3.1,Undercarriage,98.9,C
+UC003,Idler,Excavator,22,8000,0.82,18.1,B,9500,171641.0,6,3.1,Undercarriage,99.3,C
+EL002,Starter Motor,Excavator,22,8000,0.82,18.1,C,8500,153574.0,4,2.1,Electrical,99.6,C
+BM001,Structural Beam (boom),Excavator,22,40000,0.16,3.6,B,35000,126472.0,14,1.5,Structural,99.9,C
+BP001,Base Plate (structural),Excavator,22,50000,0.13,2.9,B,25000,72270.0,12,1.0,Structural,100.0,C

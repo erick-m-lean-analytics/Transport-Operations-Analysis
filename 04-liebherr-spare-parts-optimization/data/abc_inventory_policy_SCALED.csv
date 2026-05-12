@@ -1,0 +1,4 @@
+ABC_Class,Num_Parts_Sample,Estimated_Total_Parts,Inventory_Turns,Days_On_Hand,Inventory_Value_AUD,Annual_Holding_Cost_AUD,Policy
+A,7,129,4.0,91.25,18119424.090044074,4167467.5407101368,High-value parts: Local stocking + VMI
+B,8,147,3.0,121.66666666666669,4706397.387368755,1082471.3990948135,Medium-value parts: Regional warehouse
+C,10,184,6.0,60.833333333333336,900518.2723329256,207119.20263657288,Low-value parts: Central warehouse + scheduled delivery
