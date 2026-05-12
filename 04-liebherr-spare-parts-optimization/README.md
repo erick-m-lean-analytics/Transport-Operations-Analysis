@@ -114,6 +114,13 @@ Annual Cost = Annual Demand × Unit Cost
 | **Wear Components** | GET teeth, cutting edges, liners | 250-1,000 hrs | $800-$5K | $7.7M |
 | **Filtration** | Oil/fuel/air filters | 250-500 hrs | $150-$800 | $2.25M |
 
+![Spare Parts Cost by Category](charts/cost_by_category.png)
+*Annual spare parts demand by equipment category. Drivetrain components represent the highest value category at $13.5M/year, followed by hydraulics at $15.9M. Wear components and filtration, while lower in unit cost, require the highest turnover due to frequent replacement.*
+
+![High Wear Parts Analysis](charts/high_wear_parts.png)
+*Wear component consumption patterns. Ground Engaging Tools (GET) and filtration items have the shortest MTBF (250-1,000 hours) but lowest unit cost ($800-$5K), making them ideal candidates for Class C inventory policy with centralized distribution.*
+
+
 **Total Annual Demand Modeled:** $49.9M across 25 representative parts
 
 **Scaling Note:** The 25 parts represent typical criticality distribution across drivetrain, hydraulics, electrical, undercarriage, and wear components. Total inventory values are scaled to industry benchmarks (see Phase 3).
@@ -153,6 +160,8 @@ Annual Cost = Annual Demand × Unit Cost
 | **C** | 10 | 8.7% | 40% |
 
 **Pareto Validation:** Top 28% of parts represent 70% of inventory value ✓
+![ABC Pareto Analysis](charts/abc_pareto_analysis.png)
+*Pareto distribution of spare parts by ABC classification. Class A parts (28% of SKUs) represent 70% of inventory value, validating the differentiated stocking approach. Class C parts (40% of SKUs) represent only 9% of value, supporting aggressive turnover targets.*
 
 ---
 
@@ -217,6 +226,8 @@ Annual Holding Cost Savings: $5.12M  (48.4% reduction)
 Working Capital Freed:       $22.3M  (for strategic investments)
 Days on Hand Reduction:      88 days (182 → 94 days)
 ```
+![Inventory Optimization Impact](charts/inventory_optimization_SCALED.png)
+*Baseline vs optimized inventory comparison. ABC-driven strategy reduces average inventory from $46M to $23.7M while improving turnover from 2.0× to 3.9×. Class A parts maintain higher availability through VMI, while Class C parts achieve 6× turnover through centralized distribution.*
 
 ---
 
