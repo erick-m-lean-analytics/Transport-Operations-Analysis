@@ -4,7 +4,6 @@
 **Author:** Erick Mortera — Certified Lean Manufacturing Trainer | Industrial Engineer  
 **Tools:** Python · NetworkX · PostgreSQL · BITRE Public Data · EUROCONTROL Cost Framework  
 **Status:** Analysis complete 
-
 ---
 
 ## The Problem in One Sentence
@@ -92,6 +91,18 @@ New data (free, public)
 | Network density | 0.089 |
 | Topology | Hub-and-spoke (sparse — vulnerable) |
 
+### Network Topology
+
+![Australian Domestic Aviation Network](charts/01_network_map.png)
+
+*Node size and colour represent hub importance by betweenness centrality. Red = critical hub (betweenness > 0.30), orange = major hub, blue = important, grey = regional. Sydney, Darwin, Brisbane, Perth, and Melbourne emerge as the dominant hubs, with regional airports connected as spokes.*
+
+### Traffic Volume Matrix
+
+![From-To Traffic Matrix](charts/02_from_to_heatmap.png)
+
+*From-To matrix showing sectors flown between the top 15 airports. Melbourne↔Sydney is the busiest corridor (441k sectors), followed by Brisbane↔Sydney (265k). Dark red cells indicate very high traffic (>300k sectors), while light yellow indicates low traffic (<50k).*
+
 ### Hub Connectivity
 
 | Airport | Direct Routes | Betweenness Centrality | Role |
@@ -109,6 +120,10 @@ New data (free, public)
 ### Finding 1 — Betweenness ≠ Traffic Volume
 
 Network importance and operational busyness measure different things:
+
+![Hub Importance vs Traffic Volume](charts/03_betweenness_vs_traffic.png)
+
+*Four-quadrant classification of Australian airports. Sydney is the only Super Hub (critical AND busy). Darwin is a Bridge (critical but low traffic — rank 2 in betweenness, rank 14 in traffic). Melbourne is a Busy Hub (high traffic but replaceable paths). This distinction is essential for investment targeting.*
 
 | Airport | Betweenness Rank | Traffic Rank | Gap | Type |
 |---|---|---|---|---|
@@ -128,6 +143,10 @@ most of its connections.
 ### Finding 2 — Cascade Cost Concentration
 
 Three airports generate 84% of all network cascade costs:
+
+![Disruption Cost by Airport](charts/05_disruption_cost_by_airport.png)
+
+*Left: Stacked cost breakdown showing cancellation (red), direct delay (orange), cascade/reactionary (maroon), and passenger time (yellow) costs per airport. Sydney leads at $1,335M total. Right: Scatter plot showing the relationship between route count and cascade cost — more routes means more downstream disruption. Sydney's 23 routes generate $207M/yr in cascade costs alone.*
 
 | Airport | Routes | Annual Cascade Cost | Share of Total |
 |---|---|---|---|
@@ -152,6 +171,10 @@ that only network analysis can detect.
 | **Total** | | **AUD $3,015M** |
 
 ### Finding 4 — Resilience Investment ROI
+
+![Resilience Investment Scenarios](charts/06_resilience_investment_scenarios.png)
+
+*Left: Investment cost vs annual savings for three scenarios. OneSKY ATC modernisation ($1,900M investment) delivers $190M/yr in savings. Perth alternative routes ($37M/yr) deliver only $0.9M/yr in direct savings but provide strategic resilience. Right: 20-year NPV showing OneSKY delivers $1,900M positive NPV, Brisbane capacity delivers $220M, while Perth routes show negative financial NPV — but their value is resilience, not cost savings.*
 
 | Scenario | Investment | Annual Saving | Payback | Type |
 |---|---|---|---|---|
@@ -315,7 +338,6 @@ All cost data flows from Project 1's PostgreSQL database.
     ├── 01_network_map.png                   (Geographic network topology)
     ├── 02_from_to_heatmap.png               (Traffic volume matrix)
     ├── 03_betweenness_vs_traffic.png        (Hub type classification)
-    ├── 04_economic_gdp_at_risk.png          (Isolation risk by hub)
     ├── 05_disruption_cost_by_airport.png    (Cost breakdown by hub)
     └── 06_resilience_investment_scenarios.png (ROI comparison)
 ```
@@ -346,9 +368,10 @@ provided you give appropriate credit to the author.
 ## AI Assistance Disclosure
 
 Python code for network construction, centrality calculation, and
-visualisation was developed with assistance from an AI language model. 
-All analytical decisions, cost framework integration, assumption validation, 
-and interpretations are the author's own.
+visualisation was developed with assistance from 
+an AI language model. All analytical decisions, cost framework
+integration, assumption validation, and interpretations are the
+author's own.
 
 The intellectual contributions that are unambiguously the author's:
 the cascade cost weighting methodology, the betweenness-vs-traffic
