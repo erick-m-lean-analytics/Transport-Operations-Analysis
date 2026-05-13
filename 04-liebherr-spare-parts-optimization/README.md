@@ -1,4 +1,4 @@
-# Liebherr Australia: Spare Parts Inventory Optimization
+# Liebherr Australia: Spare Parts Inventory Optimisation
 ## ABC Classification Strategy for Mining Equipment Support
 
 **Industry:** Heavy Equipment Manufacturing & Mining Support  
