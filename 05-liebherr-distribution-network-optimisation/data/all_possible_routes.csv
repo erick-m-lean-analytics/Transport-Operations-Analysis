@@ -1,0 +1,46 @@
+Demand_Region,Supply_Hub,Distance_km
+Bowen Basin,Emerald,149.2729
+Bowen Basin,Mackay (Paget),218.4747
+Bowen Basin,Brisbane (Yatala),989.3029
+Bowen Basin,Mt Thorley,1418.2263
+Bowen Basin,Sydney (Erskine Park),1615.8244
+Bowen Basin,Adelaide (Cavan),2171.1345
+Bowen Basin,Kalgoorlie,3944.6513999999997
+Bowen Basin,Perth (Redcliffe),4386.8546
+Bowen Basin,Newman,5022.777
+Hunter Valley,Mt Thorley,38.9641
+Hunter Valley,Sydney (Erskine Park),239.4914
+Hunter Valley,Brisbane (Yatala),804.5238
+Hunter Valley,Emerald,1248.6442
+Hunter Valley,Adelaide (Cavan),1461.4802
+Hunter Valley,Mackay (Paget),1527.9111
+Hunter Valley,Kalgoorlie,3329.7805
+Hunter Valley,Perth (Redcliffe),3771.9837
+Hunter Valley,Newman,4299.6918
+Olympic Dam,Adelaide (Cavan),567.6148000000001
+Olympic Dam,Mt Thorley,1740.5128
+Olympic Dam,Sydney (Erskine Park),1796.4613
+Olympic Dam,Emerald,1802.9416
+Olympic Dam,Brisbane (Yatala),2119.8545
+Olympic Dam,Kalgoorlie,2123.2745
+Olympic Dam,Mackay (Paget),2147.8571
+Olympic Dam,Perth (Redcliffe),2565.4777999999997
+Olympic Dam,Newman,3093.1859
+Pilbara,Newman,303.7575
+Pilbara,Kalgoorlie,1272.3528000000001
+Pilbara,Perth (Redcliffe),1472.0153
+Pilbara,Adelaide (Cavan),3419.6528
+Pilbara,Mt Thorley,4592.5509
+Pilbara,Emerald,4642.853
+Pilbara,Sydney (Erskine Park),4648.499400000001
+Pilbara,Mackay (Paget),4816.38
+Pilbara,Brisbane (Yatala),5418.813
+WA Goldfields,Kalgoorlie,6.9392
+WA Goldfields,Perth (Redcliffe),587.4444
+WA Goldfields,Newman,975.7001
+WA Goldfields,Adelaide (Cavan),2151.5135
+WA Goldfields,Mt Thorley,3324.4115
+WA Goldfields,Sydney (Erskine Park),3380.36
+WA Goldfields,Brisbane (Yatala),3703.7532
+WA Goldfields,Emerald,3797.3477000000003
+WA Goldfields,Mackay (Paget),4158.3036
