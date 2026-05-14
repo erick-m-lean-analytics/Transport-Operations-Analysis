@@ -16,14 +16,14 @@
 
 Liebherr-Australia Pty Ltd supports a significant mining equipment fleet across Queensland and Western Australia. This independent study models the current spare parts inventory landscape and proposes an **ABC Classification strategy** to optimise working capital.
 
-By differentiating stocking policies based on part criticality and value—rather than applying a uniform turnover target—Liebherr can reduce its spare parts inventory from **$12.7M to $7.2M**. This optimization achieves:
+By differentiating stocking policies based on part criticality and value—rather than applying a uniform turnover target—Liebherr can reduce its spare parts inventory from **$12.7M to $7.2M**. This optimisation achieves:
 
 - **Inventory Reduction:** $5.5M (43.3% reduction in carrying value)
 - **Annual Holding Cost Savings:** $1.26M (assuming 23% carrying cost rate)
 - **Improved Turnover:** 2.0× → 3.5× (182 days → 104 days on hand)
 - **ROI:** 2.1-month payback on estimated $500K implementation cost
 
-**Key Insight:** High-criticality drivetrain components (Class A) require 4× turnover with Vendor-Managed Inventory (VMI), while consumables (Class C) can achieve 6× turnover through centralized distribution. This differentiated approach balances equipment uptime requirements with working capital efficiency.
+**Key Insight:** High-criticality drivetrain components (Class A) require 4× turnover with Vendor-Managed Inventory (VMI), while consumables (Class C) can achieve 6× turnover through centralised distribution. This differentiated approach balances equipment uptime requirements with working capital efficiency.
 
 ---
 
@@ -51,7 +51,7 @@ This study models **25 representative spare parts** to establish the ABC classif
 **Justification:**
 - **Pareto Validation:** The 25 parts account for **~70-80%** of the total annual demand cost, aligning with the Pareto Principle (80/20 rule) common in heavy equipment inventory.
 - **Industry Benchmark:** This sample size is consistent with initial ABC classification pilots used by major OEMs (e.g., Caterpillar, Komatsu) to validate stocking policies before full-scale rollout.
-- **Scalability:** The ABC thresholds (70% for Class A, 90% for Class B) derived from this sample are applied to the full population, ensuring the strategy is scalable to the entire ~460-part catalog.
+- **Scalability:** The ABC thresholds (70% for Class A, 90% for Class B) derived from this sample are applied to the full population, ensuring the strategy is scalable to the entire ~460-part catalogue.
 
 ### 3. Demand Forecasting Model
 **Objective:** Calculate annual spare parts demand based on operating hours, failure rates, and equipment population.
@@ -103,9 +103,9 @@ The analysis identified a clear Pareto distribution where high-value, high-criti
 
 | Class | Target Turns | Days on Hand | Policy | Rationale |
 |-------|--------------|--------------|--------|-----------|
-| **A** | 4.0× | 91 days | Local stocking + VMI | Maximize availability for critical, high-cost items |
+| **A** | 4.0× | 91 days | Local stocking + VMI | Maximise availability for critical, high-cost items |
 | **B** | 3.0× | 122 days | Regional warehouse | Balance cost with regional demand for medium-value items |
-| **C** | 6.0× | 61 days | Central warehouse + scheduled delivery | Maximize turnover for low-cost, high-volume consumables |
+| **C** | 6.0× | 61 days | Central warehouse + scheduled delivery | Maximise turnover for low-cost, high-volume consumables |
 
 ### 3. Financial Impact: Optimised vs. Baseline
 
@@ -119,7 +119,7 @@ The optimised strategy significantly reduces holding costs by aligning inventory
 - Annual Holding Cost (23%): $2.92M
 - Inventory Turnover: 2.0× per year
 
-**OPTIMIZED (ABC-Driven Strategy):**
+**OPTIMISED (ABC-Driven Strategy):**
 - Average Inventory Value: $7.2M (1.13% of revenue)
 - Annual Holding Cost (23%): $1.66M
 - Inventory Turnover: 3.5× per year
@@ -142,7 +142,7 @@ Physical expansion must be matched with inventory optimisation. If new warehouse
 
 This study provides a blueprint for how new and existing hubs can utilise **ABC classification and VMI** to ensure that increased warehousing capacity translates to *working capital efficiency*. By implementing these policies, Liebherr can:
 1.  **Free up working capital** ($5.5M) to fund further technological upgrades or zero-emission R&D.
-2.  **Reduce warehouse footprint requirements** for Class C consumables by 60% through centralized distribution.
+2.  **Reduce warehouse footprint requirements** for Class C consumables by 60% through centralised distribution.
 3.  **Guarantee uptime** for critical Class A components through VMI contracts, directly supporting the high-uptime requirements of the 2030 zero-emission fleet.
 
 **References:**
@@ -156,14 +156,14 @@ This study provides a blueprint for how new and existing hubs can utilise **ABC 
 
 ### Phase 1: Data Validation & ABC Classification (Month 1-2)
 1. Historical demand data validation (2-year lookback) to confirm actual consumption patterns and MTBF assumptions
-2. Full spare parts catalog ABC analysis (expand from 25 representative parts to ~460 total SKUs)
+2. Full spare parts catalogue ABC analysis (expand from 25 representative parts to ~460 total SKUs)
 3. CMMS upgrade with ABC classification module
 4. Critical parts identification workshop with field service engineers
 
 ### Phase 2: Policy Design & Vendor Negotiation (Month 2-4)
 1. Design VMI agreements for Class A parts (top 10 suppliers)
-2. Negotiate regional warehouse consolidation (Perth + Mackay) → *Rationale: Eliminate duplicate safety stock across multiple regional sites by centralizing Class B/C inventory, while maintaining local/VMI stock for Class A. This reduces total system carrying costs by ~15-20% without impacting field service response times.*
-3. Develop central warehouse fulfillment processes (Adelaide)
+2. Negotiate regional warehouse consolidation (Perth + Mackay) → *Rationale: Eliminate duplicate safety stock across multiple regional sites by centralising Class B/C inventory, while maintaining local/VMI stock for Class A. This reduces total system carrying costs by ~15-20% without impacting field service response times.*
+3. Develop central warehouse fulfilment processes (Adelaide)
 4. Create scheduled delivery routes (weekly → daily for Class C)
 
 ### Phase 3: System Implementation & Training (Month 4-6)
@@ -173,7 +173,7 @@ This study provides a blueprint for how new and existing hubs can utilise **ABC 
 4. Pilot program (start with excavator parts only)
 
 ### Phase 4: Full Rollout & Continuous Improvement (Month 6-12)
-1. Expand ABC policy rollout to full parts catalog (~460 SKUs) across all supported equipment types (trucks, dozers, cranes)
+1. Expand ABC policy rollout to full parts catalogue (~460 SKUs) across all supported equipment types (trucks, dozers, cranes)
 2. Monthly performance reviews (turns, stockouts, holding costs)
 3. Supplier scorecarding (VMI performance, lead times)
 4. Annual ABC re-classification (demand patterns change over time)
@@ -183,7 +183,7 @@ This study provides a blueprint for how new and existing hubs can utilise **ABC 
 ## REFERENCE NOTEBOOK
 
 For a detailed step-by-step walkthrough of the data analysis, assumptions, and code implementation, please refer to the Jupyter Notebook:
-- [Liebherr_Spare_Parts_Optimisation.ipynb](liebherr_spare_parts_optimisation_analysis.ipynb)
+- [liebherr_spare_parts_optimisation_analysis.ipynb](liebherr_spare_parts_optimisation_analysis.ipynb)
 
 ---
 
