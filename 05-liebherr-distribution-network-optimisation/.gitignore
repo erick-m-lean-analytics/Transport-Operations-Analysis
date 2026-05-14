@@ -1,0 +1,7 @@
+# Ignore generated data files
+data/*.csv
+
+# Ignore Python cache and checkpoints
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
