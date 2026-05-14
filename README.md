@@ -1,2 +1,2 @@
 # Transport-Operations-Analysis
-Operations analysis projects in aviation, shipping, rail and mining using Australian public data
+Operations analysis projects in aviation and mining using Australian public data
