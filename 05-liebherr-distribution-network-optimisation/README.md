@@ -14,9 +14,9 @@
 
 ### EXECUTIVE SUMMARY
 
-Liebherr Australia operates a centralised parts distribution and field service network serving 138 mining equipment units across five regions in Australia. Current logistics costs total **$9.35M annually** (excluding inventory carrying costs, which are addressed in a separate spare parts optimisation study), with **61% attributed to SLA penalty payments** for missed 4-hour emergency response commitments.
+Liebherr Australia operates a centralised parts distribution and field service network serving 138 mining equipment units across five regions in Australia. This independent study, based on publicly available data and industry benchmarks, models current logistics costs at **AUD $9.35M annually** (excluding inventory carrying costs, which are addressed in a separate spare parts optimisation study), with **approximately 61% attributed to SLA penalty payments** for missed 4-hour emergency response commitments.
 
-This independent study, based on publicly available data and industry benchmarks, demonstrates that establishing **two strategic regional hubs** (Pilbara + Olympic Dam) can reduce logistics costs to **$3.69M annually** — a **$5.66M saving (60.5% reduction)** — with a **12.7-month payback** on a $6.0M investment.
+This analysis demonstrates that establishing **two strategic regional hubs** (Pilbara + Olympic Dam) can reduce logistics costs to **$3.69M annually** — a **$5.66M saving (60.5% reduction)** — with a **12.7-month payback** on a $6.0M investment.
 
 **Key Insight:** The primary cost driver is not freight or distance — it's **contract penalties for slow emergency response**. Regional hubs enable <2 hour response times, reducing SLA breach rates from 15% to 3%, saving **$4.7M annually in penalties alone**.
 
@@ -90,8 +90,11 @@ All primary operational and financial data is sourced from Australian public dom
   - Planned (60%): 828 interventions
   - Emergency (40%): 552 interventions
 
+![Baseline Network Map](charts/baseline_network_map.png)
+*Figure 1: Current supply hub network (blue pins) and mining customer demand regions (red pins). Vast distances between hubs and remote sites drive high logistics costs.*
+
 ![Phase 1: Deep Infrastructure Scan](charts/phase1_infrastructure_scan.png)
-*Figure 1: All possible highway alternatives between Liebherr hubs and mining sites. Bent edges represent multiple route options identified by OSRM.*
+*Figure 2: All possible highway alternatives between Liebherr hubs and mining sites. Bent edges represent multiple route options identified by OSRM.*
 
 #### Phase 2: Cost Element Identification
 
@@ -139,7 +142,7 @@ All primary operational and financial data is sourced from Australian public dom
 **Baseline:** 83 breaches × $75,000 = **$5.68M/year** ← Dominant cost driver (61% of total baseline)
 
 ![Phase 2: Optimised Supply Lines](charts/phase2_optimised_backbone.png)
-*Figure 2: Dijkstra's shortest-path network. Black solid lines represent Hub-to-Customer hotshot routes; blue dashed lines represent Hub-to-Hub linehaul backbone.*
+*Figure 3: Dijkstra's shortest-path network. Black solid lines represent Hub-to-Customer hotshot routes; blue dashed lines represent Hub-to-Hub linehaul backbone.*
 
 ---
 
@@ -158,4 +161,41 @@ All primary operational and financial data is sourced from Australian public dom
 **Network-Wide Baseline:** **$9.35M** (Freight: $1.83M | Dispatch: $1.42M | Idle Time: $58K | Emergency Handling: $308K | SLA Penalties: $5.68M)
 
 ![Baseline vs Optimised Savings](charts/network_optimization_savings.png)
-*Figure 3: Executive comparison of current network costs vs. proposed two-hub optimisation. Highlights $5.66M annual savings primarily driven by SLA penalty reduction.*
+*Figure 4: Executive comparison of current network costs vs. proposed two-hub optimisation. Highlights $5.66M annual savings primarily driven by SLA penalty reduction.*
+
+---
+
+### RECOMMENDATION
+
+Based on the cost model and network strain analysis, the following actions are recommended:
+
+1. **Establish two strategic regional hubs** at:
+   - **Central Pilbara** (approx. -22.5°S, 118.0°E) to serve the 45-machine iron ore fleet
+   - **Olympic Dam** (approx. -30.5°S, 136.9°E) to serve the 18-machine copper/uranium fleet
+
+2. **Expected outcomes:**
+   - Reduce SLA breach rates from 15% to 3%
+   - Save **$5.66M annually** in logistics costs
+   - Achieve **12.7-month payback** on a $6.0M capital investment
+   - Enable <2 hour emergency response times across both regions
+
+3. **Next steps:**
+   - Validate hub locations with Liebherr's site acquisition team
+   - Model inventory pre-positioning strategy (see Project 4)
+   - Negotiate updated SLA terms with mining clients reflecting improved response capabilities
+
+---
+
+### DISCLAIMER & SENSITIVITY ANALYSIS
+
+**Disclaimer:** This analysis is an independent estimation based on publicly available data and industry benchmarks. It does not represent Liebherr Australia's audited financials, internal cost structures, or actual SLA compliance reports. All figures are modelled outputs and should be validated against internal data before investment decisions.
+
+**Sensitivity Analysis:** The 61% SLA penalty proportion is highly sensitive to the assumed breach rate. The table below shows how total baseline costs and penalty proportions shift under different breach rate scenarios:
+
+| SLA Breach Rate | SLA Penalties | Total Baseline Cost | SLA % of Total | Annual Savings (Optimised) |
+|-----------------|---------------|---------------------|----------------|----------------------------|
+| 10% | $3.79M | $7.44M | 51% | $3.75M |
+| 15% (Base Case) | $5.68M | $9.35M | 61% | $5.66M |
+| 20% | $7.57M | $11.26M | 67% | $7.57M |
+
+*Note: Optimised breach rate held constant at 3% across all scenarios. Freight, dispatch, and handling costs remain fixed.*

@@ -1,0 +1,633 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_8d06e900e6ede3f7aed2d77ef84d8fe3 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_8d06e900e6ede3f7aed2d77ef84d8fe3" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_8d06e900e6ede3f7aed2d77ef84d8fe3 = L.map(
+                "map_8d06e900e6ede3f7aed2d77ef84d8fe3",
+                {
+                    center: [-25.27, 133.77],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 4,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_d423bd9827bbe47e995d9780835603c3 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_d423bd9827bbe47e995d9780835603c3.addTo(map_8d06e900e6ede3f7aed2d77ef84d8fe3);
+        
+    
+            var marker_ed30100168f7ad61e467f5f47597d4e9 = L.marker(
+                [-31.92, 115.96],
+                {
+}
+            ).addTo(map_8d06e900e6ede3f7aed2d77ef84d8fe3);
+        
+    
+            var icon_65b5179d63803e9faed2a77b47112f3d = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_92a19de9c2ad82848fd9715f25a1423c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3af6415ddcfde8f60a4607e7770d5b5b = $(`<div id="html_3af6415ddcfde8f60a4607e7770d5b5b" style="width: 100.0%; height: 100.0%;">Supply: Perth (Redcliffe)</div>`)[0];
+                popup_92a19de9c2ad82848fd9715f25a1423c.setContent(html_3af6415ddcfde8f60a4607e7770d5b5b);
+            
+        
+
+        marker_ed30100168f7ad61e467f5f47597d4e9.bindPopup(popup_92a19de9c2ad82848fd9715f25a1423c)
+        ;
+
+        
+    
+    
+                marker_ed30100168f7ad61e467f5f47597d4e9.setIcon(icon_65b5179d63803e9faed2a77b47112f3d);
+            
+    
+            var marker_53cc3a7222a6844648e51cd18e8ffe28 = L.marker(
+                [-34.82, 138.64],
+                {
+}
+            ).addTo(map_8d06e900e6ede3f7aed2d77ef84d8fe3);
+        
+    
+            var icon_f0231597028c27a352cfc271a9d9af06 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_6d5933e6d3f5d763e9bbbc19cb26ad58 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1f11f44fcd5b4e45a61da9d21fde4633 = $(`<div id="html_1f11f44fcd5b4e45a61da9d21fde4633" style="width: 100.0%; height: 100.0%;">Supply: Adelaide (Cavan)</div>`)[0];
+                popup_6d5933e6d3f5d763e9bbbc19cb26ad58.setContent(html_1f11f44fcd5b4e45a61da9d21fde4633);
+            
+        
+
+        marker_53cc3a7222a6844648e51cd18e8ffe28.bindPopup(popup_6d5933e6d3f5d763e9bbbc19cb26ad58)
+        ;
+
+        
+    
+    
+                marker_53cc3a7222a6844648e51cd18e8ffe28.setIcon(icon_f0231597028c27a352cfc271a9d9af06);
+            
+    
+            var marker_c390a9ee32502a9793ea6321344dbd85 = L.marker(
+                [-33.8, 150.8],
+                {
+}
+            ).addTo(map_8d06e900e6ede3f7aed2d77ef84d8fe3);
+        
+    
+            var icon_e80460c59f7aa8f3fcb732959802dc2d = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_8fc26bdba4a521f6eb47b4be936fc070 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5cc7b2f8da096ccea9a7abde86f77fa3 = $(`<div id="html_5cc7b2f8da096ccea9a7abde86f77fa3" style="width: 100.0%; height: 100.0%;">Supply: Sydney (Erskine Park)</div>`)[0];
+                popup_8fc26bdba4a521f6eb47b4be936fc070.setContent(html_5cc7b2f8da096ccea9a7abde86f77fa3);
+            
+        
+
+        marker_c390a9ee32502a9793ea6321344dbd85.bindPopup(popup_8fc26bdba4a521f6eb47b4be936fc070)
+        ;
+
+        
+    
+    
+                marker_c390a9ee32502a9793ea6321344dbd85.setIcon(icon_e80460c59f7aa8f3fcb732959802dc2d);
+            
+    
+            var marker_f82f8a282c2388378648a4624aa35309 = L.marker(
+                [-27.75, 153.23],
+                {
+}
+            ).addTo(map_8d06e900e6ede3f7aed2d77ef84d8fe3);
+        
+    
+            var icon_a92e57b9677f1e527b6a0344e0515118 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_e4e1f03ea688abd77bb4c84cb3f4d9d5 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d85dce5d91cf34c8a8ad97eeb78fc8c5 = $(`<div id="html_d85dce5d91cf34c8a8ad97eeb78fc8c5" style="width: 100.0%; height: 100.0%;">Supply: Brisbane (Yatala)</div>`)[0];
+                popup_e4e1f03ea688abd77bb4c84cb3f4d9d5.setContent(html_d85dce5d91cf34c8a8ad97eeb78fc8c5);
+            
+        
+
+        marker_f82f8a282c2388378648a4624aa35309.bindPopup(popup_e4e1f03ea688abd77bb4c84cb3f4d9d5)
+        ;
+
+        
+    
+    
+                marker_f82f8a282c2388378648a4624aa35309.setIcon(icon_a92e57b9677f1e527b6a0344e0515118);
+            
+    
+            var marker_44ad2012630f2a9d0aab5f4677af89b7 = L.marker(
+                [-21.18, 149.18],
+                {
+}
+            ).addTo(map_8d06e900e6ede3f7aed2d77ef84d8fe3);
+        
+    
+            var icon_6d553c2f6ef5ee5394adbc259e7f7b1f = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_32bf643453dab2da79cf77bac97d80e8 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_495e0d2f9083e0f24e48e6c1290bbceb = $(`<div id="html_495e0d2f9083e0f24e48e6c1290bbceb" style="width: 100.0%; height: 100.0%;">Supply: Mackay (Paget)</div>`)[0];
+                popup_32bf643453dab2da79cf77bac97d80e8.setContent(html_495e0d2f9083e0f24e48e6c1290bbceb);
+            
+        
+
+        marker_44ad2012630f2a9d0aab5f4677af89b7.bindPopup(popup_32bf643453dab2da79cf77bac97d80e8)
+        ;
+
+        
+    
+    
+                marker_44ad2012630f2a9d0aab5f4677af89b7.setIcon(icon_6d553c2f6ef5ee5394adbc259e7f7b1f);
+            
+    
+            var marker_85d0ba82af85224d0a96d52027b879ee = L.marker(
+                [-23.53, 148.16],
+                {
+}
+            ).addTo(map_8d06e900e6ede3f7aed2d77ef84d8fe3);
+        
+    
+            var icon_ef36364ec3665c26186548dd3031b13c = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_815a0fcd8df93c06882722d1887b5dd0 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_de3dd1b50c1dada52d6c8e576c1415f3 = $(`<div id="html_de3dd1b50c1dada52d6c8e576c1415f3" style="width: 100.0%; height: 100.0%;">Supply: Emerald</div>`)[0];
+                popup_815a0fcd8df93c06882722d1887b5dd0.setContent(html_de3dd1b50c1dada52d6c8e576c1415f3);
+            
+        
+
+        marker_85d0ba82af85224d0a96d52027b879ee.bindPopup(popup_815a0fcd8df93c06882722d1887b5dd0)
+        ;
+
+        
+    
+    
+                marker_85d0ba82af85224d0a96d52027b879ee.setIcon(icon_ef36364ec3665c26186548dd3031b13c);
+            
+    
+            var marker_95d2b7f6b93616921ff19b16c56ece4b = L.marker(
+                [-23.35, 119.73],
+                {
+}
+            ).addTo(map_8d06e900e6ede3f7aed2d77ef84d8fe3);
+        
+    
+            var icon_10020d89a7759028a458f718852757e6 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_fae8f2248b5dc5f5cebcc869a5bf97b0 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f03d8586cfa87b44de0946b52dd195fe = $(`<div id="html_f03d8586cfa87b44de0946b52dd195fe" style="width: 100.0%; height: 100.0%;">Supply: Newman</div>`)[0];
+                popup_fae8f2248b5dc5f5cebcc869a5bf97b0.setContent(html_f03d8586cfa87b44de0946b52dd195fe);
+            
+        
+
+        marker_95d2b7f6b93616921ff19b16c56ece4b.bindPopup(popup_fae8f2248b5dc5f5cebcc869a5bf97b0)
+        ;
+
+        
+    
+    
+                marker_95d2b7f6b93616921ff19b16c56ece4b.setIcon(icon_10020d89a7759028a458f718852757e6);
+            
+    
+            var marker_a67fd2afd673f3c1aab42bb0310c7940 = L.marker(
+                [-30.75, 121.46],
+                {
+}
+            ).addTo(map_8d06e900e6ede3f7aed2d77ef84d8fe3);
+        
+    
+            var icon_b14e8fbfbf125822a003558e13e5b1b3 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_a2439b4c1304d3406c9713269f8828d5 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_851bbbee430dfbf8c3bb861c24831176 = $(`<div id="html_851bbbee430dfbf8c3bb861c24831176" style="width: 100.0%; height: 100.0%;">Supply: Kalgoorlie</div>`)[0];
+                popup_a2439b4c1304d3406c9713269f8828d5.setContent(html_851bbbee430dfbf8c3bb861c24831176);
+            
+        
+
+        marker_a67fd2afd673f3c1aab42bb0310c7940.bindPopup(popup_a2439b4c1304d3406c9713269f8828d5)
+        ;
+
+        
+    
+    
+                marker_a67fd2afd673f3c1aab42bb0310c7940.setIcon(icon_b14e8fbfbf125822a003558e13e5b1b3);
+            
+    
+            var marker_94d869ec6d09d72bed58af97ed39b6c9 = L.marker(
+                [-32.62, 151.1],
+                {
+}
+            ).addTo(map_8d06e900e6ede3f7aed2d77ef84d8fe3);
+        
+    
+            var icon_040e6dac45bd8235f64d12c1f9d87051 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_b1be76a5e8003abca207273a038ffb7c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e06772cdfd36f8f6dad17dab65d0b2c9 = $(`<div id="html_e06772cdfd36f8f6dad17dab65d0b2c9" style="width: 100.0%; height: 100.0%;">Supply: Mt Thorley</div>`)[0];
+                popup_b1be76a5e8003abca207273a038ffb7c.setContent(html_e06772cdfd36f8f6dad17dab65d0b2c9);
+            
+        
+
+        marker_94d869ec6d09d72bed58af97ed39b6c9.bindPopup(popup_b1be76a5e8003abca207273a038ffb7c)
+        ;
+
+        
+    
+    
+                marker_94d869ec6d09d72bed58af97ed39b6c9.setIcon(icon_040e6dac45bd8235f64d12c1f9d87051);
+            
+    
+            var marker_61be0d4d48500f090d4703a6203f64ba = L.marker(
+                [-21.75, 118.5],
+                {
+}
+            ).addTo(map_8d06e900e6ede3f7aed2d77ef84d8fe3);
+        
+    
+            var icon_cd56394d15abc8255ea954f316242b3a = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "warning-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_0a3a95f689199ae6f4394f1283d3fb6e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_7dc81099a4016b17537e5eb4a113f33c = $(`<div id="html_7dc81099a4016b17537e5eb4a113f33c" style="width: 100.0%; height: 100.0%;">Demand: Pilbara (Iron Ore)</div>`)[0];
+                popup_0a3a95f689199ae6f4394f1283d3fb6e.setContent(html_7dc81099a4016b17537e5eb4a113f33c);
+            
+        
+
+        marker_61be0d4d48500f090d4703a6203f64ba.bindPopup(popup_0a3a95f689199ae6f4394f1283d3fb6e)
+        ;
+
+        
+    
+    
+                marker_61be0d4d48500f090d4703a6203f64ba.setIcon(icon_cd56394d15abc8255ea954f316242b3a);
+            
+    
+            var marker_92bc495441fa34b7b7edda0cc217b232 = L.marker(
+                [-22.5, 148.5],
+                {
+}
+            ).addTo(map_8d06e900e6ede3f7aed2d77ef84d8fe3);
+        
+    
+            var icon_53da5ccac4cd15a22e69f850b3d02419 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "warning-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_fe604b898e084a780624a24b88184deb = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9eaee56bad2cc431bae549b8de3545b9 = $(`<div id="html_9eaee56bad2cc431bae549b8de3545b9" style="width: 100.0%; height: 100.0%;">Demand: Bowen Basin (Coal)</div>`)[0];
+                popup_fe604b898e084a780624a24b88184deb.setContent(html_9eaee56bad2cc431bae549b8de3545b9);
+            
+        
+
+        marker_92bc495441fa34b7b7edda0cc217b232.bindPopup(popup_fe604b898e084a780624a24b88184deb)
+        ;
+
+        
+    
+    
+                marker_92bc495441fa34b7b7edda0cc217b232.setIcon(icon_53da5ccac4cd15a22e69f850b3d02419);
+            
+    
+            var marker_d718c9672cf67e85967d2abf36f792db = L.marker(
+                [-32.5, 151.0],
+                {
+}
+            ).addTo(map_8d06e900e6ede3f7aed2d77ef84d8fe3);
+        
+    
+            var icon_1d0464d6f187f0a3f6f7a38f70e36c1f = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "warning-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_dbf51365bf123df35b6854cfdb1f8bfc = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6c13ddf322473094c28ef8c7d12fd934 = $(`<div id="html_6c13ddf322473094c28ef8c7d12fd934" style="width: 100.0%; height: 100.0%;">Demand: Hunter Valley (Coal)</div>`)[0];
+                popup_dbf51365bf123df35b6854cfdb1f8bfc.setContent(html_6c13ddf322473094c28ef8c7d12fd934);
+            
+        
+
+        marker_d718c9672cf67e85967d2abf36f792db.bindPopup(popup_dbf51365bf123df35b6854cfdb1f8bfc)
+        ;
+
+        
+    
+    
+                marker_d718c9672cf67e85967d2abf36f792db.setIcon(icon_1d0464d6f187f0a3f6f7a38f70e36c1f);
+            
+    
+            var marker_d9ef2a8f7e9e9aaeb81be59016e1c086 = L.marker(
+                [-30.75, 121.5],
+                {
+}
+            ).addTo(map_8d06e900e6ede3f7aed2d77ef84d8fe3);
+        
+    
+            var icon_cafa30dea1182ef9b50dec8750fadcd9 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "warning-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_f6a95c312df7d4d81f4e971ea002d1cd = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6f0e3e70b16755e81898c0b56e179d7b = $(`<div id="html_6f0e3e70b16755e81898c0b56e179d7b" style="width: 100.0%; height: 100.0%;">Demand: WA Goldfields (Gold / Nickel)</div>`)[0];
+                popup_f6a95c312df7d4d81f4e971ea002d1cd.setContent(html_6f0e3e70b16755e81898c0b56e179d7b);
+            
+        
+
+        marker_d9ef2a8f7e9e9aaeb81be59016e1c086.bindPopup(popup_f6a95c312df7d4d81f4e971ea002d1cd)
+        ;
+
+        
+    
+    
+                marker_d9ef2a8f7e9e9aaeb81be59016e1c086.setIcon(icon_cafa30dea1182ef9b50dec8750fadcd9);
+            
+    
+            var marker_50475f896f8cdb975cbfc14c968d83f7 = L.marker(
+                [-30.43, 136.88],
+                {
+}
+            ).addTo(map_8d06e900e6ede3f7aed2d77ef84d8fe3);
+        
+    
+            var icon_d4f58af9dfacd8382bb7873899905b74 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "warning-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_74c9237f2c2e5efb2a0bf8d013fbf011 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_70d61288e79b1b20427321ee72bcb77e = $(`<div id="html_70d61288e79b1b20427321ee72bcb77e" style="width: 100.0%; height: 100.0%;">Demand: Olympic Dam (Copper / Uranium)</div>`)[0];
+                popup_74c9237f2c2e5efb2a0bf8d013fbf011.setContent(html_70d61288e79b1b20427321ee72bcb77e);
+            
+        
+
+        marker_50475f896f8cdb975cbfc14c968d83f7.bindPopup(popup_74c9237f2c2e5efb2a0bf8d013fbf011)
+        ;
+
+        
+    
+    
+                marker_50475f896f8cdb975cbfc14c968d83f7.setIcon(icon_d4f58af9dfacd8382bb7873899905b74);
+            
+</script>
+</html>
